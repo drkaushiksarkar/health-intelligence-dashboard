@@ -179,12 +179,12 @@ function renderTable() {
         if (p.grade === 'Very Low') gradeClass = 'grade-very-low';
 
         html += `
-            <tr>
+            <tr onclick='openModal(${JSON.stringify(p).replace(/'/g, "&#39;")})'>
                 <td>${p.year}</td>
                 <td style="font-size:0.8rem;">${p.authors}</td>
                 <td>
                     <strong>${p.title}</strong>
-                    <div style="font-size:0.75rem; color:#64748B; margin-top:4px;">${p.summary}</div>
+                    <div style="font-size:0.75rem; color:#64748B; margin-top:4px; max-height: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${p.summary}</div>
                 </td>
                 <td><span class="badge-count" style="background:${p.approach === 'Deep Sequence' ? '#1A8C84' : '#475569'}">${p.approach}</span></td>
                 <td><span class="grade-badge ${gradeClass}">${p.grade}</span></td>
@@ -244,4 +244,49 @@ function setupFilters(allPapers) {
 
     searchInput.addEventListener('input', filterData);
     gradeFilter.addEventListener('change', filterData);
+}
+
+// --- Modal Logic ---
+function openModal(paperData) {
+    document.getElementById('modalTitle').textContent = paperData.title;
+    document.getElementById('modalAuthors').textContent = paperData.authors;
+    document.getElementById('modalYear').textContent = paperData.year || 'N/A';
+    document.getElementById('modalType').textContent = paperData.type;
+    
+    const approachBadge = document.getElementById('modalApproach');
+    approachBadge.textContent = paperData.approach;
+    approachBadge.style.background = paperData.approach === 'Deep Sequence' ? '#1A8C84' : '#475569';
+    
+    document.getElementById('modalGrade').textContent = paperData.grade;
+    document.getElementById('modalSummary').textContent = paperData.summary;
+
+    const barrierPanel = document.getElementById('modalBarrier');
+    const barrierText = document.getElementById('modalBarrierText');
+    
+    if (paperData.fails_at !== 'N/A') {
+        barrierPanel.style.display = 'block';
+        if (paperData.fails_at === 'Barrier 1') {
+            barrierText.innerHTML = `<strong>Fails at Barrier 1: Non-Stationary Stochastic Process.</strong><br>While leaning on historical series, this architecture struggles to extrapolate across low-frequency climate regime shifts resulting in non-stationary phase space distortion.`;
+        } else if (paperData.fails_at === 'Barrier 2') {
+            barrierText.innerHTML = `<strong>Fails at Barrier 2: Ill-Posed Inverse Operator.</strong><br>By appending covariates heuristically, this approach creates an unstable Jacobian matrix subject to multicollinearity and structural degeneracy across shifting climate states.`;
+        } else if (paperData.fails_at === 'Both') {
+            barrierText.innerHTML = `<strong>Fails at Both Barriers.</strong><br>This model is fundamentally incapable of resolving multiscale temporal dynamics and suffers fatal instability in parameter estimation under climate perturbations.`;
+        }
+    } else {
+        barrierPanel.style.display = 'none';
+    }
+
+    document.getElementById('synopsisModal').style.display = 'flex';
+}
+
+function closeModal() {
+    document.getElementById('synopsisModal').style.display = 'none';
+}
+
+// Close modal if clicking outside
+window.onclick = function(event) {
+    const modal = document.getElementById('synopsisModal');
+    if (event.target === modal) {
+        closeModal();
+    }
 }

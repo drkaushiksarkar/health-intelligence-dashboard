@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="top-nav">
         <div class="header-container">
-            <h1 class="main-title">EVIDENCE SYNTHESIS <span class="subtitle">| DENGUE FORECASTING ARCHITECTURES</span></h1>
+            <h1 class="main-title">EVIDENCE SYNTHESIS <span class="subtitle">| DENGUE FORECASTING ARCHITECTURES</span>
+            </h1>
             <div class="metadata">
                 <span>AI PhD Committee Presentation Dashboard</span>
             </div>
@@ -27,18 +30,21 @@
             <div class="section-header">
                 <h2>WHY THIS PROBLEM REMAINS UNSOLVED</h2>
             </div>
-            
+
             <div class="grid-context">
                 <!-- Mathematical Barriers -->
                 <div class="barriers-panel panel">
                     <h3>TWO MATHEMATICAL BARRIERS</h3>
-                    
+
                     <div class="barrier-card">
                         <div class="barrier-icon">1</div>
                         <div class="barrier-content">
                             <h4>Non-Stationary Stochastic Process</h4>
-                            <p>Disease incidence is a multiscale, non-Markovian signal with high-frequency meteorological forcing, seasonal vector population fluctuations, and low-frequency climate regime shifts superimposed.</p>
-                            <p class="highlight-text">Fixed-order temporal kernels alias across these bands and distort the phase-space geometry of P(y<sub>t</sub>  | *).</p>
+                            <p>Disease incidence is a multiscale, non-Markovian signal with high-frequency
+                                meteorological forcing, seasonal vector population fluctuations, and low-frequency
+                                climate regime shifts superimposed.</p>
+                            <p class="highlight-text">Fixed-order temporal kernels alias across these bands and distort
+                                the phase-space geometry of P(y<sub>t</sub> | *).</p>
                         </div>
                     </div>
 
@@ -49,17 +55,20 @@
                             <p>The mapping <strong>F : c → d</strong> violates Hadamard well-posedness:</p>
                             <ul class="hadamard-list">
                                 <li><strong>Existence</strong> outbreaks without deterministic climate precursors</li>
-                                <li><strong>Uniqueness</strong> degenerate trajectories from distinct climate states</li>
+                                <li><strong>Uniqueness</strong> degenerate trajectories from distinct climate states
+                                </li>
                                 <li><strong>Stability</strong> small perturbations trigger nonlinear regime shifts</li>
                             </ul>
-                            <p class="highlight-text">The Jacobian condition number diverges under covariate multicollinearity, yielding unstable parameter estimation.</p>
+                            <p class="highlight-text">The Jacobian condition number diverges under covariate
+                                multicollinearity, yielding unstable parameter estimation.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Prior Approach Landscape -->
                 <div class="landscape-panel panel">
-                    <h3>PRIOR APPROACH LANDSCAPE <span class="paper-count" id="total-approaches-count">(Analyzing... papers)</span></h3>
+                    <h3>PRIOR APPROACH LANDSCAPE <span class="paper-count" id="total-approaches-count">(Analyzing...
+                            papers)</span></h3>
                     <table class="landscape-table">
                         <thead>
                             <tr>
@@ -76,7 +85,8 @@
 
                     <div class="architectural-gap">
                         <h4>THE ARCHITECTURAL GAP</h4>
-                        <p>No existing architecture jointly addresses non-stationarity and ill-posedness while producing <strong>calibrated distributional forecasts</strong> across geographies.</p>
+                        <p>No existing architecture jointly addresses non-stationarity and ill-posedness while producing
+                            <strong>calibrated distributional forecasts</strong> across geographies.</p>
                     </div>
                 </div>
             </div>
@@ -87,7 +97,7 @@
             <div class="section-header">
                 <h2>SYSTEMATIC LITERATURE METRICS (n=<span id="total-papers">0</span>)</h2>
             </div>
-            
+
             <div class="charts-grid">
                 <div class="chart-panel panel">
                     <h3>Approach Distribution</h3>
@@ -95,13 +105,15 @@
                         <canvas id="approachChart"></canvas>
                     </div>
                 </div>
-                
+
                 <div class="chart-panel panel">
                     <h3>GRADE Evidence Scoring</h3>
                     <div class="chart-wrapper">
                         <canvas id="gradeChart"></canvas>
                     </div>
-                    <p class="chart-caption" style="margin-top:15px; font-size: 0.85rem; color: #64748B;">*Scoring algorithm based on rigorous study design and relevance to mathematical barriers (Ill-posedness & Non-stationarity).</p>
+                    <p class="chart-caption" style="margin-top:15px; font-size: 0.85rem; color: #64748B;">*Scoring
+                        algorithm based on rigorous study design and relevance to mathematical barriers (Ill-posedness &
+                        Non-stationarity).</p>
                 </div>
 
                 <div class="chart-panel panel">
@@ -148,6 +160,39 @@
         </section>
     </main>
 
+    <!-- Synopsis Modal -->
+    <div id="synopsisModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Paper Title</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-meta">
+                    <span class="meta-label">Authors:</span> <span id="modalAuthors">Authors</span><br>
+                    <span class="meta-label">Year:</span> <span id="modalYear">Year</span><br>
+                    <span class="meta-label">Type:</span> <span id="modalType">Type</span><br>
+                    <span class="meta-label">Approach:</span> <span id="modalApproach"
+                        class="badge-count">Approach</span><br>
+                    <span class="meta-label">GRADE:</span> <span id="modalGrade">Grade</span>
+                </div>
+                <div class="modal-synopsis">
+                    <h3>Evidence Synthesis & Mathematical Implications</h3>
+                    <p id="modalSummary">Synopsis goes here...</p>
+
+                    <div class="barrier-diagnosis" id="modalBarrier"
+                        style="margin-top: 1.5rem; padding: 1rem; background: #F1F5F9; border-left: 4px solid #C52233; border-radius: 4px;">
+                        <h4
+                            style="color: #0A1C3E; font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase;">
+                            Barrier Failure Diagnosis</h4>
+                        <p id="modalBarrierText" style="font-size: 0.85rem; color: #475569;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>
