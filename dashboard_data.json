@@ -1,23 +1,23 @@
 {
   "analytics": {
-    "total_papers": 154,
+    "total_papers": 81,
     "grades": {
       "High": 0,
-      "Moderate": 18,
-      "Low": 100,
-      "Very Low": 36
+      "Moderate": 10,
+      "Low": 50,
+      "Very Low": 21
     },
     "approaches": {
-      "Classical ML": 23,
-      "Deep Sequence": 39,
-      "Climate-Augmented": 28,
-      "Transfer Learning": 3,
-      "Other/Epidemiological": 61
+      "Classical ML": 7,
+      "Deep Sequence": 23,
+      "Climate-Augmented": 14,
+      "Transfer Learning": 1,
+      "Other/Epidemiological": 36
     },
     "barriers": {
-      "Barrier 1": 39,
-      "Barrier 2": 28,
-      "Both": 26
+      "Barrier 1": 23,
+      "Barrier 2": 14,
+      "Both": 8
     }
   },
   "papers": [
@@ -58,18 +58,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> The use of ML for predicting stroke outcomes is increasing. However, few met basic reporting standards for clinical prediction tools and none made their models available in a way which could be used or evaluated. Major improvements in ML study conduct and reporting are needed before it can meaningfully be considered for practice.<br><br><a href=\"https://doi.org/10.1371/journal.pone.0234722\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "4",
-      "year": "2024",
-      "title": "A Review on the Role of Machine Learning in Predicting and Controlling Epidemics",
-      "authors": "Towfek SK, Elkanzi M",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Comprehensive review of ML epidemic prediction and control; covers SVM, RF, DL approaches",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "5",
       "year": "2023",
       "title": "Artificial Intelligence in Public Health: The Potential of Epidemic Early Warning Systems",
@@ -92,18 +80,6 @@
       "fails_at": "Both",
       "summary": "Systematic review examining ML techniques across multiple infectious diseases",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> The aim of the study is to show whether it is possible to predict infectious disease outbreaks early, by using machine learning. This study was carried out following the guidelines of the Cochrane Collaboration and the meta-analysis of observational studies in epidemiology and the preferred reporting items for systematic reviews and meta-analyses. The suitable bibliography on PubMed/Medline and Scopus was searched by combining text, words, and titles on medical topics. At the end of the search, this systematic review contained 75 records. The studies analyzed in this systematic review demonstrate that it is possible to predict the incidence and trends of some infectious diseases; by combining several techniques and types of machine learning, it is possible to obtain accurate and plausible results.<br><br><a href=\"https://doi.org/10.3390/make5010013\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "7",
-      "year": "2024",
-      "title": "Global Infectious Disease Early Warning Models: A Systematic Review and Meta-analysis",
-      "authors": "Hu WH et al.",
-      "type": "Meta-analysis",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Meta-analysis of 85 EWS models; identifies key predictors and methodological gaps",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "8",
@@ -154,18 +130,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Deep learning, a crucial technique for achieving artificial intelligence (AI), has been successfully applied in many fields. The gradual application of the latest architectures of deep learning in the field of time series forecasting (TSF), such as Transformers, has shown excellent performance and results compared to traditional statistical methods. These applications are widely present in academia and in our daily lives, covering many areas including forecasting electricity consumption in power systems, meteorological rainfall, traffic flow, quantitative trading, risk control in finance, sales operations and price predictions for commercial companies, and pandemic prediction in the medical field. Deep learning-based TSF tasks stand out as one of the most valuable AI scenarios for research, playing an important role in explaining complex real-world phenomena. However, deep learning models still face challenges: they need to deal with the challenge of large-scale data in the information age, achieve longer forecasting ranges, reduce excessively high computational complexity, etc. Therefore, novel methods and more effective solutions are essential. In this paper, we review the latest developments in deep learning for TSF. We begin by introducing the recent development trends in the field of TSF and then propose a new taxonomy from the perspective of deep neural network models, comprehensively covering articles published over the past five years. We also organize commonly used experimental evaluation metrics and datasets. Finally, we point out current issues with the existing solutions and suggest promising future directions in the field of deep learning combined with TSF. This paper is the most comprehensive review related to TSF in recent years and will provide a detailed index for researchers in this field and those who are just starting out.<br><br><a href=\"https://doi.org/10.3390/math12101504\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "12",
-      "year": "2023",
-      "title": "Time Series Forecasting with Statistical, Machine Learning, and Deep Learning Methods: Past, Present, and Future",
-      "authors": "Spiliotis E",
-      "type": "Review",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Comprehensive comparison of classical vs ML vs DL forecasting paradigms",
-      "enriched_evidence": "API Error: 400"
-    },
-    {
       "id": "13",
       "year": "2023",
       "title": "Generative Adversarial Networks in Time Series: A Systematic Literature Review",
@@ -190,18 +154,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Diffusion models, initially developed for image synthesis, demonstrate remarkable generative capabilities. Recently, their application has expanded to time series forecasting (TSF), yielding promising results. Existing surveys on time series primarily focus on the application of diffusion models to time series tasks or merely provide model-by-model introductions of diffusion-based TSF models, without establishing a systematic taxonomy for existing diffusion-based TSF models. In this survey, we firstly introduce several standard diffusion models and their prevalent variants, explaining their adaptation to TSF tasks. Then, we provide a comprehensive review of diffusion models for TSF, paying special attention to the sources of conditional information and the mechanisms for integrating this conditioning within the models. In analyzing existing approaches using diffusion models for TSF, we provide a systematic categorization and a comprehensive summary of them in this survey. Furthermore, we examine several foundational diffusion models applied to TSF, alongside commonly used datasets and evaluation metrics. Finally, we discuss the progress and limitations of these approaches, as well as potential future research directions for diffusion-based TSF. Overall, this survey offers a comprehensive overview of recent progress and future prospects for diffusion models in TSF, serving as a valuable reference for researchers in the field.<br><br><a href=\"https://doi.org/10.48550/arxiv.2507.14507\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "15",
-      "year": "2024",
-      "title": "Systematic review of machine learning for dengue outbreak prediction: 2023-2024 Update",
-      "authors": "Multiple Authors (CRIE/MedRxiv)",
-      "type": "Systematic Review",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Machine learning, especially Random Forest and Neural Networks, outperforms ARIMA. Identifies temperature, humidity, and rainfall as critical predictors. Highlights lack of standardized reporting.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "16",
       "year": "2024",
       "title": "Dengue Forecasting Models: A Systematic Review and Network Meta-Analysis of Relative Performance",
@@ -212,54 +164,6 @@
       "fails_at": "Barrier 1",
       "summary": "Network meta-analysis of models from 2014-2024. Found k-NN achieved highest predictive accuracy among ML, while Deep Learning models showed high potential but lower implementability due to data requirements.",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Abstracts Background Accurate dengue forecasting is vital for public health preparedness. Despite a surge in forecasting approaches, a quantitative ranking of the relative performance and practical utility of dengue forecasting is lacking. Methods A systematic review and Network Meta-Analysis (NMA) of studies comparing dengue forecasting methods (2014\u20132024) was conducted. Models were categorised into five groups: Time Series, Deep Learning (DL), Machine Learning (excluding DL), Hybrid, and Ensembles. NMA was applied to the logarithm of the most common forecast error metric to rank relative performance\u2014an \u201cImplementability Score\u201d quantified analyst and data requirements, and computational costs. Results 59 studies were included. NMA of Root Mean Squared Error identified k-Nearest Neighbour (k-NN) models as achieving the highest predictive accuracy, followed closely by Vector Autoregression, Kalman Filtering, Generalised Linear Model and Autoregressive Neural Network (ARNN). While DL models showed high potential, they scored lowest in implementability due to poor interpretability and high data requirements. Most studies utilised meteorological covariates, with significant gaps in the use of socio-economic and entomological predictors. Conclusions Although there was some trade-off between accuracy and implementability, traditional statistical models were often comparable in accuracy to machine learning approaches, with advantages in interpretability and data needs. Under-explored areas for future research include the use of ensemble models and the use of socio-economic and entomological data. Registration PROSPERO CRD420251016662. Author Summary Dengue is a critical global health threat affecting the world\u2019s population. While many forecasting models exist to help officials prepare for outbreaks, there has been no standardised way to compare their performance. This leaves health experts in resource-limited areas uncertain about which tools are truly reliable or easy to use under their specific local conditions. We conducted a network meta-analysis of studies comparing dengue forecasting methods\u2019 accuracy, grouping them into five categories: Machine Learning, Deep Learning, Time Series, Ensemble, and Hybrid. Beyond ranking their accuracy, we developed an \u201cImplementability Score\u201d to evaluate the practical feasibility of each model, accounting for technical complexity, data requirements, and software accessibility. Our analysis identified the top-performing models. Notably, traditional statistical models often performed as well as complex Deep Learning algorithms. While advanced models show potential, they are often difficult to implement or explain to decision-makers. There is no \u201cone-size-fits-all\u201d solution; the best model depends on capacity and data in each setting. This study provides a roadmap for public health officials to select tools that are both accurate and feasible.<br><br><a href=\"https://doi.org/10.64898/2026.02.18.26346534\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "17",
-      "year": "2025",
-      "title": "Analytical review of environmental factors and machine learning techniques in dengue prediction",
-      "authors": "Various (Review)",
-      "type": "Systematic Review",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Concluded that Random Forest and SVM demonstrated higher accuracy than traditional methods in identifying risk areas based on 2020-2024 data.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "18",
-      "year": "2022",
-      "title": "Over Half of Known Human Pathogenic Diseases Can Be Aggravated by Climate Change",
-      "authors": "Mora C et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "218 of 375 (58%) infectious diseases aggravated by climatic hazards via 1,006 unique pathways",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "19",
-      "year": "2013",
-      "title": "Climate Change and Infectious Diseases: Can We Meet the Needs for Better Prediction?",
-      "authors": "Rod\u00f3 X et al.",
-      "type": "Perspective",
-      "grade": "Very Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Identifies critical gaps in climate-disease prediction and calls for integrated frameworks",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "20",
-      "year": "2016",
-      "title": "Impact of Climate Change on Human Infectious Diseases: Empirical Results and Projections",
-      "authors": "Wu X et al.",
-      "type": "Review",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Empirical evidence of climate impacts on disease; projects increased burden under warming scenarios",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "21",
@@ -284,18 +188,6 @@
       "fails_at": "Barrier 2",
       "summary": "Non-linear threshold effects of temperature and rainfall on dengue transmission in Taiwan",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Climate change is regarded as one of the major factors enhancing the transmission intensity of dengue fever. In this study, we estimated the threshold effects of temperature on <i>Aedes</i> mosquito larval index as an early warning tool for dengue prevention. We also investigated the relationship between dengue vector index and dengue epidemics in Taiwan using weekly panel data for 17 counties from January 2012 to May 2019. To achieve our goals, we first applied the panel threshold regression technique to test for threshold effects and determine critical temperature values. Data were then further decomposed into different sets corresponding to different temperature regimes. Finally, negative binomial regression models were applied to assess the non-linear relationship between meteorological factors and Breteau index (BI). At the national level, we found that a 1\u00b0C temperature increase caused the expected value of BI to increase by 0.09 units when the temperature is less than 27.21 \u00b0C, and by 0.26 units when the temperature is greater than 27.21 \u00b0C. At the regional level, the dengue vector index was more sensitive to temperature changes because double threshold effects were found in the southern Taiwan model. For southern Taiwan, as the temperature increased by 1\u00b0C, the expected value of BI increased by 0.29, 0.63, and 1.49 units when the average temperature was less than 27.27 \u00b0C, between 27.27 and 30.17 \u00b0C, and higher than 30.17 \u00b0C, respectively. In addition, the effects of precipitation and relative humidity on BI became stronger when the average temperature exceeded the thresholds. Regarding the impacts of climate change on BI, our results showed that the potential effects on BI range from 3.5 to 54.42% under alternative temperature scenarios. By combining threshold regression techniques with count data regression models, this study provides evidence of threshold effects between climate factors and the dengue vector index. The proposed threshold of temperature could be incorporated into the implementation of public health measures and risk prediction to prevent and control dengue fever in the future.<br><br><a href=\"https://doi.org/10.3390/ijerph17041392\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "23",
-      "year": "2024",
-      "title": "Nonlinear Impacts of Climate Change on Dengue Transmission in Mainland China",
-      "authors": "Zheng Z et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Non-linear climate-dengue relationships with future projections for mainland China",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
     },
     {
       "id": "24",
@@ -370,18 +262,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Vector-borne diseases continue to contribute significantly to the global burden of disease, and cause epidemics that disrupt health security and cause wider socioeconomic impacts around the world. All are sensitive in different ways to weather and climate conditions, so that the ongoing trends of increasing temperature and more variable weather threaten to undermine recent global progress against these diseases. Here, we review the current state of the global public health effort to address this challenge, and outline related initiatives by the World Health Organization (WHO) and its partners. Much of the debate to date has centred on attribution of past changes in disease rates to climate change, and the use of scenario-based models to project future changes in risk for specific diseases. While these can give useful indications, the unavoidable uncertainty in such analyses, and contingency on other socioeconomic and public health determinants in the past or future, limit their utility as decision-support tools. For operational health agencies, the most pressing need is the strengthening of current disease control efforts to bring down current disease rates and manage short-term climate risks, which will, in turn, increase resilience to long-term climate change. The WHO and partner agencies are working through a range of programmes to (i) ensure political support and financial investment in preventive and curative interventions to bring down current disease burdens; (ii) promote a comprehensive approach to climate risk management; (iii) support applied research, through definition of global and regional research agendas, and targeted research initiatives on priority diseases and population groups.<br><br><a href=\"https://doi.org/10.1098/rstb.2013.0552\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "30",
-      "year": "2022",
-      "title": "Climate Change Increases Cross-species Viral Transmission Risk",
-      "authors": "Carlson CJ et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Projects 4,000+ novel cross-species viral sharing events by 2070 driven by range shifts",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
       "id": "31",
       "year": "2024",
       "title": "Wake-up Call: Rapid Increase in Human Fungal Diseases under Climate Change",
@@ -392,30 +272,6 @@
       "fails_at": "Barrier 2",
       "summary": "Emergence of thermotolerant fungal pathogens (Candida auris) under warming conditions",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Rising temperatures and extreme weather are setting the stage for increases in fungal diseases. As new pathogenic fungi emerge and known threats spread and evolve, scientists and decision makers are responding.<br><br><a href=\"https://doi.org/10.1289/ehp14722\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "32",
-      "year": "2024",
-      "title": "Climate Change Dynamics and Dengue Transmission Surge in the Americas (2023-2024)",
-      "authors": "Various (Gavi/PAHO reports)",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Documents the exponential surge in cases driven by extreme weather events and optimal temperature/humidity thresholds.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "33",
-      "year": "2020",
-      "title": "Severe Dengue Epidemic, Sri Lanka, 2017",
-      "authors": "Tissera HA et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Epidemiological characterization of severe dengue epidemic in Sri Lanka",
-      "enriched_evidence": "API Error: 400"
     },
     {
       "id": "34",
@@ -442,18 +298,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Brazil was responsible for more than 50% of suspected cases and deaths from dengue compared to the other Latin American countries in 2024. Furthermore, there is a different racial profile for dengue in Brazil, as Black people, Mixed individuals, and Indigenous peoples were more likely to be suspected cases of dengue in 2024 compared to 2023.<br><br><a href=\"https://doi.org/10.1016/j.ijid.2024.107192\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "36",
-      "year": "2024",
-      "title": "Dengue Outbreak Caused by Multiple Virus Serotypes and Lineages, Colombia",
-      "authors": "Grubaugh ND et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Multi-serotype dengue outbreak in Colombia 2023-2024",
-      "enriched_evidence": "API Error: 400"
-    },
-    {
       "id": "37",
       "year": "2024",
       "title": "Molecular Epidemiology of Dengue in Malaysia: 2015-2021",
@@ -464,18 +308,6 @@
       "fails_at": "N/A",
       "summary": "Seven-year molecular surveillance of dengue serotypes in Malaysia",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Dengue has been one of the major public health problems in Malaysia for decades. Over 600,000 dengue cases and 1,200 associated fatalities have been reported in Malaysia from 2015 to 2021, which was 100% increase from the cumulative total of dengue cases reported during the preceding 07-year period from 2008 to 2014. However, studies that describe the molecular epidemiology of dengue in Malaysia in recent years are limited. In the present study, we describe the genetic composition and dispersal patterns of Dengue virus (DENV) by using 4,004 complete envelope gene sequences of all four serotypes (DENV-1 = 1,567, DENV-2 = 1,417, DENV-3 = 762 and DENV-4 = 258) collected across Malaysia from 2015 to 2021. The findings revealed that DENV populations in Malaysia were highly diverse, and the overall heterogeneity was maintained through repetitive turnover of genotypes. Phylogeography analyses suggested that DENV dispersal occurred through an extensive network, mainly among countries in South and East Asia and Malaysian states, as well as among different states, especially within Peninsular Malaysia. The results further suggested Selangor and Johor as major hubs of DENV emergence and spread in Malaysia.<br><br><a href=\"https://doi.org/10.3389/fgene.2024.1368843\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "38",
-      "year": "2021",
-      "title": "Evolution and Epidemiologic Dynamics of Dengue Virus in Nicaragua",
-      "authors": "Edgerton SV et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Dengue virus evolution during emergence of chikungunya and Zika in Nicaragua",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
     },
     {
       "id": "39",
@@ -490,66 +322,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> The coronavirus disease 2019 (COVID-19) pandemic has significantly influenced the epidemiological landscape of various infectious diseases such as dengue. Dengue is an endemic disease in the Philippines, which showed a significant decline in the number of cases beginning in March 2020 due to the stringent public health measures implemented to curb COVID-19 cases. However, the easing of these restrictions subsequently led to a resurgence in dengue cases, as reported by the World Health Organization, with a notable increase compared to previous years. As the country navigates towards a post-pandemic phase, addressing the resurgence of dengue requires sustained efforts in vector control, surveillance, and healthcare preparedness. This article underscores the critical need for collaborative efforts among stakeholders to mitigate the resurgence of dengue while managing the ongoing recovery from the COVID-19 pandemic.<br><br><a href=\"https://doi.org/10.5501/wjv.v13.i3.99179\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "40",
-      "year": "2023",
-      "title": "Singapore's Dengue Outbreak Amidst the COVID-19 Pandemic",
-      "authors": "Cheema HA et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Analysis of dengue-COVID interaction and response in Singapore",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "41",
-      "year": "2018",
-      "title": "Baseline Characterization of Dengue Epidemiology in Yogyakarta, Indonesia",
-      "authors": "Indriani C et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Baseline dengue epidemiology before Wolbachia trial in Indonesia",
-      "enriched_evidence": "API Error: 400"
-    },
-    {
-      "id": "42",
-      "year": "2024",
-      "title": "A Global Dataset of Publicly Available Dengue Case Count Data",
-      "authors": "Clarke J et al.",
-      "type": "Data",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "OpenDengue: standardized global dengue case count database",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "43",
-      "year": "2024",
-      "title": "A Reproducible Ensemble Machine Learning Approach to Forecast Dengue Outbreaks",
-      "authors": "Sebastianelli A et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Ensemble ML for dengue incidence in 27 Brazilian states; one-month-ahead predictions",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "44",
-      "year": "2020",
-      "title": "Improving Dengue Fever Predictions in Taiwan Based on Feature Selection and Random Forests",
-      "authors": "Benedum CM et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "RF achieved AUC 0.9547; 21% fewer errors than Poisson regression, 33% fewer than ARIMA",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
       "id": "45",
       "year": "2016",
       "title": "Mapping Dengue Risk in Singapore Using Random Forest",
@@ -562,42 +334,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> This study demonstrates the potential of Random Forest and its strong predictive capability in stratifying the spatial risk of dengue transmission in Singapore. Dengue risk map produced using Random Forest has high accuracy, and is a good surveillance tool to guide vector control operations.<br><br><a href=\"https://doi.org/10.1371/journal.pntd.0006587\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "46",
-      "year": "2025",
-      "title": "ANN vs XGBoost for Climate-Based Dengue Prediction in Bangladesh",
-      "authors": "Chowdhury MJH et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "XGBoost achieved lowest RMSE (918.83) and AUC-ROC 97.1%",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "47",
-      "year": "2024",
-      "title": "Precision Prediction for Dengue in Singapore Using Meteorological Data",
-      "authors": "Liu W et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "XGBoost achieved MAE 89.12, R\u00b2 0.83; precipitation and humidity key predictors",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "48",
-      "year": "2025",
-      "title": "Dengue EWS and Outbreak Prediction in Bangladesh Using Interpretable Tree-Based ML",
-      "authors": "Rahman MA et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "LightGBM with 95% accuracy; agricultural land, population density, temperature as predictors",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "49",
       "year": "2024",
       "title": "Dengue in Tomorrow: ARIMA and SARIMA Models in Bangladesh",
@@ -608,54 +344,6 @@
       "fails_at": "Barrier 2",
       "summary": "ARIMA(1,1,1) and SARIMA(1,1,2)(1,1,2)\u2081\u2082 optimal; SARIMAX with climate improved accuracy",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> These models offer valuable insights for healthcare planning and resource allocation, although external factors and complex interactions must be considered. Dengue prevalence is expected to rise in future in Bangladesh.<br><br><a href=\"https://doi.org/10.1002/hsr2.70276\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "50",
-      "year": "2011",
-      "title": "A SARIMA Forecasting Model for Dengue in Campinas, Brazil",
-      "authors": "Luz PM et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "SARIMA(2,1,2)(1,1,1)\u2081\u2082 best-fit; cases predicted from 1, 2, and 12 months prior",
-      "enriched_evidence": "API Error: 400"
-    },
-    {
-      "id": "51",
-      "year": "2025",
-      "title": "Assessing Dengue Forecasting Methods: Comparative Study in Rio de Janeiro",
-      "authors": "Silva BN et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "ARIMA best for case-only data; SARIMAX superior with climate covariates",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "52",
-      "year": "2019",
-      "title": "Forecasting Dengue Using Google Trends, EHR, and Time Series Data",
-      "authors": "McIver DJ et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Sparse representation with Google Trends and EHR: 18% error reduction",
-      "enriched_evidence": "API Error: 400"
-    },
-    {
-      "id": "53",
-      "year": "2020",
-      "title": "Google Health Trends Performance Reflecting Dengue Incidence for Brazilian States",
-      "authors": "Carvalho GC et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Google search patterns track dengue seasonality with strong correlation",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
     },
     {
       "id": "54",
@@ -682,42 +370,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Epidemics of communicable diseases place a huge burden on public health infrastructures across the world. Producing accurate and actionable forecasts of infectious disease incidence at short and long time scales will improve public health response to outbreaks. However, scientists and public health officials face many obstacles in trying to create such real-time forecasts of infectious disease incidence. Dengue is a mosquito-borne virus that annually infects over 400 million people worldwide. We developed a real-time forecasting model for dengue hemorrhagic fever in the 77 provinces of Thailand. We created a practical computational infrastructure that generated multi-step predictions of dengue incidence in Thai provinces every two weeks throughout 2014. These predictions show mixed performance across provinces, out-performing seasonal baseline models in over half of provinces at a 1.5 month horizon. Additionally, to assess the degree to which delays in case reporting make long-range prediction a challenging task, we compared the performance of our real-time predictions with predictions made with fully reported data. This paper provides valuable lessons for the implementation of real-time predictions in the context of public health decision making.<br><br><a href=\"https://doi.org/10.1371/journal.pntd.0004761\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "56",
-      "year": "2005",
-      "title": "Using Climate to Predict Infectious Disease Epidemics",
-      "authors": "Kuhn K et al.",
-      "type": "Guideline",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "WHO guidance on climate-based epidemic prediction for surveillance systems",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "57",
-      "year": "2023",
-      "title": "Global Analysis and Prediction of Dengue Using Machine Learning",
-      "authors": "Rakhshan SA et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Global-scale dengue prediction using multiple ML algorithms across countries",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "58",
-      "year": "2024",
-      "title": "Machine Learning for Dengue Forecasting: A Systematic Evaluation",
-      "authors": "Zhao N et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Systematic evaluation of ML methods for dengue forecasting across multiple settings",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "59",
       "year": "2024",
       "title": "Hybrid Machine Learning Approach to Zero-Inflated Data Improves Accuracy of Dengue Prediction",
@@ -728,18 +380,6 @@
       "fails_at": "Both",
       "summary": "Addresses zero-inflated data challenges in dengue prediction, improving accuracy across spatiotemporal resolutions using hybrid ML models.",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Our research contributes valuable insights to the field of spatiotemporal dengue prediction and provides an alternative solution to enhance prediction accuracy in zero-inflated data where hurdle or zero-inflated models cannot be applied.<br><br><a href=\"https://doi.org/10.1371/journal.pntd.0012599\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "60",
-      "year": "2025",
-      "title": "Comparative study aimed at forecasting dengue incidence in Bangladesh: XGBoost and SARIMA",
-      "authors": "Researchers (Bangladesh focus)",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Found that advanced machine learning models like XGBoost were highly effective for infectious disease forecasting, especially with limited surveillance data in resource-constrained settings.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "61",
@@ -790,18 +430,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> This study demonstrates the usefulness of deep learning models for meteorological factor-based DF forecasting. LSTM-ATT should be further explored for mitigation strategies against DF and other climate-sensitive diseases in the coming years.<br><br><a href=\"https://doi.org/10.1371/journal.pntd.0010509\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "65",
-      "year": "2023",
-      "title": "A Deep Learning Based Hybrid Architecture for Weekly Dengue Incidence Forecasting",
-      "authors": "Devi R et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "CNN-BiLSTM outperformed individual DL architectures for dengue prediction",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
       "id": "66",
       "year": "2024",
       "title": "CrossLag: Predicting Major Dengue Outbreaks with Domain Knowledge Informed Transformer",
@@ -814,42 +442,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> A variety of models have been developed to forecast dengue cases to date. However, it remains a challenge to predict major dengue outbreaks that need timely public warnings the most. In this paper, we introduce CrossLag, an environmentally informed attention that allows for the incorporation of lagging endogenous signals behind the significant events in the exogenous data into the architecture of the transformer at low parameter counts. Outbreaks typically lag behind major changes in climate and oceanic anomalies. We use TimeXer, a recent general-purpose transformer distinguishing exogenous-endogenous inputs, as the baseline for this study. Our proposed model outperforms TimeXer by a considerable margin in detecting and predicting major outbreaks in Singapore dengue data over a 24-week prediction window.<br><br><a href=\"https://doi.org/10.48550/arxiv.2510.03566\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "67",
-      "year": "2024",
-      "title": "FWin Transformer for Dengue Prediction Under Climate and Ocean Influence",
-      "authors": "Chen B et al.",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Fourier window attention transformer; best MSE/MAE for 60-week dengue forecasts",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "68",
-      "year": "2024",
-      "title": "Hybrid CNN and Stacked LSTM for Dengue Forecasting in Laos",
-      "authors": "Butsomphanh B et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Hybrid CNN-BiLSTM stacks outperformed individual DL for Laos dengue",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "69",
-      "year": "2024",
-      "title": "Tracking Dynamics of Chaotic Infectious Disease with Bifurcated LSTM",
-      "authors": "Adebayo A et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Bifurcated LSTM capturing chaotic dynamics in infectious disease time series",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "70",
       "year": "2025",
       "title": "Prediction of Dengue Patients Using Deep Learning Amid Complex Weather in Jaipur",
@@ -860,42 +452,6 @@
       "fails_at": "Barrier 1",
       "summary": "DL methods evaluated for dengue under complex Indian weather conditions",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Dengue outbreaks pose an escalating challenge, especially in northern India, where both affected regions and incidence rates have expanded. Developing a reliable model for accurate dengue incidence forecasting remains a daunting task. This study rigorously evaluates advanced deep learning algorithms, including artificial neural networks (ANN), convolutional neural networks (CNN), and long short-term memory networks (LSTM), to improve predictive accuracy for Jaipur city region. The system integrates a robust recommendation engine, employing CNN to interpret monthly dengue surveillance and meteorological data from 2015 to 2019 in Jaipur, Rajasthan, India. This integration creates a sophisticated fusion, not just a collection of tools, effectively bridging the gap between physical and virtual realms. The result is an interactive, immersive, and more accurate patient prediction, facilitating health infrastructure management. Validation of the proposed one-dimensional CNN (1DCNN) model demonstrates high accuracy and robustness in predicting dengue cases, supported by various performance metrics. This study represents the first comprehensive evaluation of diverse algorithms for dengue incidence prediction, offering the potential to accurately monitor dengue dynamics and optimize health infrastructure management in the region.<br><br><a href=\"https://doi.org/10.1186/s12982-025-00448-2\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "71",
-      "year": "2024",
-      "title": "Deep Learning for Dengue Disease Forecasting: A Review of Transformer architectures",
-      "authors": "Various (arXiv/Recent Repos)",
-      "type": "Systematic Review",
-      "grade": "Moderate",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Highlights the efficacy of Transformer (e.g., FWin) and Attention-enhanced LSTM models in incorporating lagging climate variables and long-range dependencies.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "72",
-      "year": "2024",
-      "title": "Predicting the Historic 2024 Dengue Outbreak in Brazil using Deep Learning",
-      "authors": "Researchers (MedRxiv/Current Research)",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Forecasted historic 2024 outbreak using trained LSTM on multi-dimensional climate data up to 2022.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "73",
-      "year": "2023",
-      "title": "District-Level Dengue Early Warning Systems with Explainable AI (XAI)",
-      "authors": "Bangladesh Local Research",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Incorporated explainable AI techniques alongside deep learning to provide transparent predictions for local health officials based on climate data.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "74",
@@ -932,18 +488,6 @@
       "fails_at": "Barrier 1",
       "summary": "Underscores the significance of incorporating mobility data, especially in urban centers with high population movement, for enhancing dengue forecasting alongside climate data using Deep Learning.",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Abstract Background Dengue fever is a major global health concern, with Brazil experiencing recurrent and severe outbreaks due to its favorable climate factors, socio-environmental conditions, and increasing human mobility. Accurate fore-casting of dengue cases and outbreak risk is essential for early warning systems and effective public health interventions. Traditional forecasting models primarily rely on historical case data and climate variables, often neglecting the role of human movement in virus transmission. This study addresses this gap by incorporating human mobility data into a deep learning-based dengue forecasting framework. Method An LSTM-based model was developed to forecast weekly dengue cases and detect outbreaks across selected Brazilian cities. The model integrates historical dengue cases, lagged climate variables (temperature and humidity), and human mobility-adjusted imported cases to capture both temporal trends and spatial transmission dynamics. Its performance was evaluated against three alternative models: (1) an LSTM using only dengue case data, (2) an LSTM incorporating climate variables, and (3) an LSTM integrating climate and geo-graphic neighborhood effects. Forecasting accuracy was assessed using Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and Continuous Ranked Probability Score (CRPS), while outbreak classification was evaluated using accuracy, sensitivity, specificity, and the F1 score. Results The proposed mobility-enhanced LSTM model consistently outperformed all baselines in both dengue case forecasting and outbreak detection. Across all cities, it achieved lower MAE and MAPE values, indicating improved accuracy, while also demonstrating superior CRPS performance, reflecting well-calibrated uncertainty estimates. In outbreak classification, the model achieved the highest sensitivity and F1 scores, highlighting its effectiveness in detecting outbreak periods compared to models that relied solely on case trends, climate variables, or geographic proximity. The results underscore the importance of integrating mobility data in dengue forecasting, particularly in urban centers with high population movement. Conclusion By incorporating human mobility dynamics into deep learning-based forecasting, this study presents a scalable and adaptable framework for enhancing dengue early warning systems. The proposed model provides more accurate case predictions and outbreak classifications, offering actionable insights for public health planning and resource allocation. Beyond dengue, this approach can be extended to other vector-borne diseases influenced by mobility and climate factors, supporting more effective epidemic preparedness strategies worldwide.<br><br><a href=\"https://doi.org/10.1101/2025.03.02.25323168\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "77",
-      "year": "2025",
-      "title": "Hybrid deep learning model integrating meteorological data and advanced signal processing (SGMD) with BiLSTM-Attention",
-      "authors": "Researchers (Guangdong focus)",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Uses data augmentation, SGMD decomposition, and BiLSTM with attention to predict dengue fever trends with high accuracy.",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "78",
@@ -1030,18 +574,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> How can we perform efficient inference and learning in directed probabilistic models, in the presence of continuous latent variables with intractable posterior distributions, and large datasets? We introduce a stochastic variational inference and learning algorithm that scales to large datasets and, under some mild differentiability conditions, even works in the intractable case. Our contributions are two-fold. First, we show that a reparameterization of the variational lower bound yields a lower bound estimator that can be straightforwardly optimized using standard stochastic gradient methods. Second, we show that for i.i.d. datasets with continuous latent variables per datapoint, posterior inference can be made especially efficient by fitting an approximate inference model (also called a recognition model) to the intractable posterior using the proposed lower bound estimator. Theoretical advantages are reflected in experimental results.<br><br><a href=\"https://doi.org/10.48550/arxiv.1312.6114\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "85",
-      "year": "2017",
-      "title": "\u03b2-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
-      "authors": "Higgins I et al.",
-      "type": "Foundational",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Disentangled representations via \u03b2 hyperparameter on KL divergence",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "86",
       "year": "2011",
       "title": "Contractive Auto-Encoders: Explicit Invariance During Feature Extraction",
@@ -1126,18 +658,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Extending the forecasting time is a critical demand for real applications, such as extreme weather early warning and long-term energy consumption planning. This paper studies the long-term forecasting problem of time series. Prior Transformer-based models adopt various self-attention mechanisms to discover the long-range dependencies. However, intricate temporal patterns of the long-term future prohibit the model from finding reliable dependencies. Also, Transformers have to adopt the sparse versions of point-wise self-attentions for long series efficiency, resulting in the information utilization bottleneck. Going beyond Transformers, we design Autoformer as a novel decomposition architecture with an Auto-Correlation mechanism. We break with the pre-processing convention of series decomposition and renovate it as a basic inner block of deep models. This design empowers Autoformer with progressive decomposition capacities for complex time series. Further, inspired by the stochastic process theory, we design the Auto-Correlation mechanism based on the series periodicity, which conducts the dependencies discovery and representation aggregation at the sub-series level. Auto-Correlation outperforms self-attention in both efficiency and accuracy. In long-term forecasting, Autoformer yields state-of-the-art accuracy, with a 38% relative improvement on six benchmarks, covering five practical applications: energy, traffic, economics, weather and disease. Code is available at this repository: \\url{https://github.com/thuml/Autoformer}.<br><br><a href=\"https://doi.org/10.48550/arxiv.2106.13008\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "93",
-      "year": "2021",
-      "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
-      "authors": "Lim B et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Hybrid transformer-LSTM with variable selection for interpretable forecasting",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
       "id": "94",
       "year": "2020",
       "title": "N-BEATS: Neural Basis Expansion Analysis for Interpretable Time Series Forecasting",
@@ -1148,30 +668,6 @@
       "fails_at": "N/A",
       "summary": "Pure DL architecture; 11% improvement over statistical M4 competition winner",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> We focus on solving the univariate times series point forecasting problem using deep learning. We propose a deep neural architecture based on backward and forward residual links and a very deep stack of fully-connected layers. The architecture has a number of desirable properties, being interpretable, applicable without modification to a wide array of target domains, and fast to train. We test the proposed architecture on several well-known datasets, including M3, M4 and TOURISM competition datasets containing time series from diverse domains. We demonstrate state-of-the-art performance for two configurations of N-BEATS for all the datasets, improving forecast accuracy by 11% over a statistical benchmark and by 3% over last year's winner of the M4 competition, a domain-adjusted hand-crafted hybrid between neural network and statistical time series models. The first configuration of our model does not employ any time-series-specific components and its performance on heterogeneous datasets strongly suggests that, contrarily to received wisdom, deep learning primitives such as residual blocks are by themselves sufficient to solve a wide range of forecasting problems. Finally, we demonstrate how the proposed architecture can be augmented to provide outputs that are interpretable without considerable loss in accuracy.<br><br><a href=\"https://doi.org/10.48550/arxiv.1905.10437\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "95",
-      "year": "2020",
-      "title": "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks",
-      "authors": "Salinas D et al.",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Autoregressive RNN for probabilistic forecasting with learned distributions",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "96",
-      "year": "2021",
-      "title": "Recurrent Neural Networks for Time Series Forecasting: Current Status and Future Directions",
-      "authors": "Hewamalage H et al.",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Comprehensive review of RNN architectures for forecasting applications",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
     },
     {
       "id": "97",
@@ -1234,18 +730,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Accurate time-series forecasting is crucial in various scientific and industrial domains, yet deep learning models often struggle to capture long-term dependencies and adapt to data distribution shifts over time. We introduce Future-Guided Learning, an approach that enhances time-series event forecasting through a dynamic feedback mechanism inspired by predictive coding. Our method involves two models: a detection model that analyzes future data to identify critical events and a forecasting model that predicts these events based on current data. When discrepancies occur between the forecasting and detection models, a more significant update is applied to the forecasting model, effectively minimizing surprise, allowing the forecasting model to dynamically adjust its parameters. We validate our approach on a variety of tasks, demonstrating a 44.8% increase in AUC-ROC for seizure prediction using EEG data, and a 23.4% reduction in MSE for forecasting in nonlinear dynamical systems (outlier excluded). By incorporating a predictive feedback mechanism, Future-Guided Learning advances how deep learning is applied to time-series forecasting.<br><br><a href=\"https://doi.org/10.1038/s41467-025-63786-4\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "102",
-      "year": "2024",
-      "title": "Transfer Learning Applications in Disease Prediction: A Comprehensive Review",
-      "authors": "Dharani K et al.",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Transfer Learning",
-      "fails_at": "Both",
-      "summary": "Review of transfer learning approaches across disease prediction domains",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "103",
       "year": "2022",
       "title": "Forecasting New Diseases in Low-Data Settings Using Transfer Learning",
@@ -1256,18 +740,6 @@
       "fails_at": "Both",
       "summary": "Dengue-trained LSTM transferred to forecast Zika and Chikungunya in low-data settings",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Recent infectious disease outbreaks, such as the COVID-19 pandemic and the Zika epidemic in Brazil, have demonstrated both the importance and difficulty of accurately forecasting novel infectious diseases. When new diseases first emerge, we have little knowledge of the transmission process, the level and duration of immunity to reinfection, or other parameters required to build realistic epidemiological models. Time series forecasts and machine learning, while less reliant on assumptions about the disease, require large amounts of data that are also not available in early stages of an outbreak. In this study, we examine how knowledge of related diseases can help make predictions of new diseases in data-scarce environments using transfer learning. We implement both an empirical and a theoretical approach. Using empirical data from Brazil, we compare how well different machine learning models transfer knowledge between two different disease pairs: (i) dengue and Zika, and (ii) influenza and COVID-19. In the theoretical analysis, we generate data using different transmission and recovery rates with an SIR compartmental model, and then compare the effectiveness of different transfer learning methods. We find that transfer learning offers the potential to improve predictions, even beyond a model based on data from the target disease, though the appropriate source disease must be chosen carefully. While imperfect, these models offer an additional input for decision makers during pandemic response.<br><br><a href=\"https://doi.org/10.1016/j.chaos.2022.112306\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "104",
-      "year": "2024",
-      "title": "Time Series Modeling of Epidemic Spreading Using Deep Transfer Learning",
-      "authors": "Sharomi O, Watmough J",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Transfer Learning",
-      "fails_at": "Both",
-      "summary": "CNN-BiLSTM hybrid with transfer learning for heterogeneous epidemic data",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
     },
     {
       "id": "105",
@@ -1294,18 +766,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> In this work we propose for the first time a transformer-based framework for unsupervised representation learning of multivariate time series. Pre-trained models can be potentially used for downstream tasks such as regression and classification, forecasting and missing value imputation. By evaluating our models on several benchmark datasets for multivariate time series regression and classification, we show that not only does our modeling approach represent the most successful method employing unsupervised learning of multivariate time series presented to date, but also that it exceeds the current state-of-the-art performance of supervised methods; it does so even when the number of training samples is very limited, while offering computational efficiency. Finally, we demonstrate that unsupervised pre-training of our transformer models offers a substantial performance benefit over fully supervised learning, even without leveraging additional unlabeled data, i.e., by reusing the same data samples through the unsupervised objective.<br><br><a href=\"https://doi.org/10.1145/3447548.3467401\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "107",
-      "year": "2024",
-      "title": "Using Machine Learning to Predict Disease Outbreaks and Strengthen Global Health Monitoring",
-      "authors": "Foluke E",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "ML for global disease prediction with cross-country transfer approaches",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "108",
       "year": "1994",
       "title": "Estimating the Mean and Variance of the Target Probability Distribution",
@@ -1316,30 +776,6 @@
       "fails_at": "Barrier 1",
       "summary": "Heteroscedastic regression for mean and variance estimation in neural networks",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Introduces a method that estimates the mean and the variance of the probability distribution of the target as a function of the input, given an assumed target error-distribution model. Through the activation of an auxiliary output unit, this method provides a measure of the uncertainty of the usual network output for each input pattern. The authors derive the cost function and weight-update equations for the example of a Gaussian target error distribution, and demonstrate the feasibility of the network on a synthetic problem where the true input-dependent noise level is known.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX><br><br><a href=\"https://doi.org/10.1109/icnn.1994.374138\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "109",
-      "year": "1978",
-      "title": "Regression Quantiles",
-      "authors": "Koenker RW, Bassett G",
-      "type": "Foundational",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Foundational quantile regression framework for distributional estimation",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "110",
-      "year": "2007",
-      "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
-      "authors": "Gneiting T, Raftery AE",
-      "type": "Foundational",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Theoretical foundations for proper scoring of probabilistic forecasts",
-      "enriched_evidence": "API Error: 400"
     },
     {
       "id": "111",
@@ -1376,54 +812,6 @@
       "fails_at": "N/A",
       "summary": "Methods for handling reporting delays in probabilistic disease forecasting",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Infectious disease forecasting is of great interest to the public health community and policymakers, since forecasts can provide insight into disease dynamics in the near future and inform interventions. Due to delays in case reporting, however, forecasting models may often underestimate the current and future disease burden. In this paper, we propose a general framework for addressing reporting delay in disease forecasting efforts with the goal of improving forecasts. We propose strategies for leveraging either historical data on case reporting or external internet-based data to estimate the amount of reporting error. We then describe several approaches for adapting general forecasting pipelines to account for under- or over-reporting of cases. We apply these methods to address reporting delay in data on dengue fever cases in Puerto Rico from 1990 to 2009 and to reports of influenza-like illness (ILI) in the United States between 2010 and 2019. Through a simulation study, we compare method performance and evaluate robustness to assumption violations. Our results show that forecasting accuracy and prediction coverage almost always increase when correction methods are implemented to address reporting delay. Some of these methods required knowledge about the reporting error or high quality external data, which may not always be available. Provided alternatives include excluding recently-reported data and performing sensitivity analysis. This work provides intuition and guidance for handling delay in disease case reporting and may serve as a useful resource to inform practical infectious disease forecasting efforts.<br><br><a href=\"https://doi.org/10.1371/journal.pcbi.1010115\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "114",
-      "year": "2019",
-      "title": "Stop Explaining Black Box ML Models for High Stakes Decisions and Use Interpretable Models Instead",
-      "authors": "Rudin C",
-      "type": "Perspective",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Case for inherently interpretable models over post-hoc explanations in high-stakes decisions",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "115",
-      "year": "2017",
-      "title": "A Unified Approach to Interpreting Model Predictions (SHAP)",
-      "authors": "Lundberg SM, Lee SI",
-      "type": "Foundational",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "SHAP values unifying game-theoretic feature attribution methods",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "116",
-      "year": "2016",
-      "title": "Why Should I Trust You? Explaining the Predictions of Any Classifier (LIME)",
-      "authors": "Ribeiro MT et al.",
-      "type": "Foundational",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Local interpretable model-agnostic explanations for any classifier",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "117",
-      "year": "2025",
-      "title": "Explainable AI for Predicting Dengue Outbreaks in Bangladesh Using Eco-climatic Triggers",
-      "authors": "Singh MP et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "XGBoost + SHAP/LIME: population density, precipitation, temperature as key predictors",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "118",
@@ -1474,30 +862,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades. Data is available from 1940 onwards. ERA5 replaces the ERA-Interim reanalysis. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics. This principle, called data assimilation, is based on the method used by numerical weather prediction centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way, but at reduced resolution to allow for the provision of a dataset spanning back several decades. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product. Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Hor\u00e1nyi, A., Mu\u00f1oz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Th\u00e9paut, J-N. (2023): ERA5 monthly averaged data on single levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), DOI: 10.24381/cds.f17050d7 (Accessed on DD-MMM-YYYY)<br><br><a href=\"https://doi.org/10.18739/a2qf8jm8r\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "122",
-      "year": "2012",
-      "title": "The Effects of Climate Data Precision on Fitting and Projecting Species Distribution Models",
-      "authors": "Kriticos DJ et al.",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Impact of climate data resolution and precision on model accuracy",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "123",
-      "year": "2024",
-      "title": "Remote Sensing and ML for Disease Risk Mapping",
-      "authors": "Qasrawi R et al.",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Integration of satellite data with ML for urban disease risk assessment",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
       "id": "124",
       "year": "2006",
       "title": "Seasonal Infectious Disease Epidemiology",
@@ -1510,54 +874,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Seasonal change in the incidence of infectious diseases is a common phenomenon in both temperate and tropical climates. However, the mechanisms responsible for seasonal disease incidence, and the epidemiological consequences of seasonality, are poorly understood with rare exception. Standard epidemiological theory and concepts such as the basic reproductive number R0 no longer apply, and the implications for interventions that themselves may be periodic, such as pulse vaccination, have not been formally examined. This paper examines the causes and consequences of seasonality, and in so doing derives several new results concerning vaccination strategy and the interpretation of disease outbreak data. It begins with a brief review of published scientific studies in support of different causes of seasonality in infectious diseases of humans, identifying four principal mechanisms and their association with different routes of transmission. It then describes the consequences of seasonality for R0, disease outbreaks, endemic dynamics and persistence. Finally, a mathematical analysis of routine and pulse vaccination programmes for seasonal infections is presented. The synthesis of seasonal infectious disease epidemiology attempted by this paper highlights the need for further empirical and theoretical work.<br><br><a href=\"https://doi.org/10.1098/rspb.2006.3604\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "125",
-      "year": "2013",
-      "title": "Towards Multiscale Modeling of Influenza Infection",
-      "authors": "Murillo LN et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Multiscale mathematical models bridging within-host and between-host dynamics",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "126",
-      "year": "2023",
-      "title": "Multiscale Malaria Models and Their Uniform In-time Convergence",
-      "authors": "Banasiak J et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Mathematical analysis of multiscale malaria dynamics with convergence guarantees",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "127",
-      "year": "2024",
-      "title": "Exploring Dengue Dynamics: A Multi-scale Modeling Approach",
-      "authors": "Otero J et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Multi-scale dengue dynamics bridging individual and population-level processes",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "128",
-      "year": "2023",
-      "title": "Non-Markovian Epidemic Spreading on Temporal Networks",
-      "authors": "Han L et al.",
-      "type": "Original",
-      "grade": "Moderate",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Non-Markovian dynamics capturing memory effects in disease spread on networks",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
       "id": "129",
       "year": "2005",
       "title": "Time-dependent Spectral Analysis of Epidemiological Time Series with Wavelets",
@@ -1568,30 +884,6 @@
       "fails_at": "N/A",
       "summary": "Wavelet decomposition revealing non-stationary cycles in epidemic data",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> In the current context of global infectious disease risks, a better understanding of the dynamics of major epidemics is urgently needed. Time-series analysis has appeared as an interesting approach to explore the dynamics of numerous diseases. Classical time-series methods can only be used for stationary time-series (in which the statistical properties do not vary with time). However, epidemiological time-series are typically noisy, complex and strongly non-stationary. Given this specific nature, wavelet analysis appears particularly attractive because it is well suited to the analysis of non-stationary signals. Here, we review the basic properties of the wavelet approach as an appropriate and elegant method for time-series analysis in epidemiological studies. The wavelet decomposition offers several advantages that are discussed in this paper based on epidemiological examples. In particular, the wavelet approach permits analysis of transient relationships between two signals and is especially suitable for gradual change in force by exogenous variables.<br><br><a href=\"https://doi.org/10.1098/rsif.2007.0212\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "130",
-      "year": "1902",
-      "title": "Sur les probl\u00e8mes aux d\u00e9riv\u00e9es partielles et leur signification physique",
-      "authors": "Hadamard J",
-      "type": "Foundational",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Foundational definition of well-posed and ill-posed mathematical problems",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "131",
-      "year": "1992",
-      "title": "Nonlinear Total Variation Based Noise Removal Algorithms",
-      "authors": "Rudin LI et al.",
-      "type": "Foundational",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Total variation regularization for denoising while preserving edges",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
     },
     {
       "id": "132",
@@ -1618,162 +910,6 @@
       "enriched_evidence": "<strong>Authentic Abstract:</strong> Pandemic policies raise complex ethical challenges, as well as scientific and technical ones. This chapter examines four critical areas where ethical analysis is essential for effective pandemic prevention, preparedness, and response: spending decisions, clinical research, restrictions on rights and freedoms, and fair allocation of scarce medical resources. Spending on pandemic prevention, preparedness, and response often involves trade-offs with other societal priorities, such as education, infrastructure, and environment. Navigating these trade-offs requires careful consideration of opportunity costs and distributional impacts. Rights and freedoms can likewise present difficult trade-offs when pandemic policies restrict individual liberties, requiring clear goals and proportionate responses that consider differential impacts across populations. Clinical research during pandemics must maintain ethical standards while addressing urgent public health needs. This chapter illustrates this imperative by exploring how ethical standards apply to challenge trials and to randomized studies of policy interventions. Finally, scarce pandemic countermeasures like vaccines and therapeutics demand fair allocation frameworks that serve four core objectives: benefiting people, mitigating disadvantage, ensuring equal concern, and recognizing reciprocity.<br><br><a href=\"https://doi.org/10.1596/978-1-4648-2213-1\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
     },
     {
-      "id": "134",
-      "year": "2022",
-      "title": "Strengthening Infectious Disease Surveillance Systems: Early Warning and Response",
-      "authors": "Alahmari AA et al.",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Framework for strengthening EWS through data integration and ML",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "135",
-      "year": "2022",
-      "title": "Early Warning Systems for the Detection of Malaria Outbreaks",
-      "authors": "Maharaj R",
-      "type": "Review",
-      "grade": "Very Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Review of malaria EWS components and performance metrics",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "136",
-      "year": "2019",
-      "title": "Impacts of Environmental and Socio-economic Factors on Emergence and Epidemic Potential of Ebola in Africa",
-      "authors": "Redding DW et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Environmental and socioeconomic predictors of Ebola emergence risk",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "137",
-      "year": "2024",
-      "title": "Climate-Informed Disease Surveillance Systems in India",
-      "authors": "Sophia Y et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Integration of climate data into disease surveillance for improved prediction in India",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "138",
-      "year": "2020",
-      "title": "Towards a Climate-Driven Disease Forecasting System for India",
-      "authors": "Sahai AK et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Climate-driven forecasting system for malaria and dengue in India",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "139",
-      "year": "2024",
-      "title": "Dengue Early Warning System Using ML and Climate Variables",
-      "authors": "Rahman MS et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "ML-based EWS integrating meteorological and epidemiological data",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "140",
-      "year": "2024",
-      "title": "Assessing the Performance of Climate-informed Disease EWS in Latin America",
-      "authors": "Cepella GMA et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "Evaluation of climate-informed EWS across Latin American countries",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "141",
-      "year": "2023",
-      "title": "Malaria's Association with Climatic Variables and an Epidemic Early Warning Approach in Africa",
-      "authors": "Hussien HH",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Climate-Augmented",
-      "fails_at": "Barrier 2",
-      "summary": "Climate-malaria associations for EWS development in African settings",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "142",
-      "year": "2022",
-      "title": "Forecasting Major Biological Events Using Machine Learning",
-      "authors": "Kumar S et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Classical ML",
-      "fails_at": "Both",
-      "summary": "ML for forecasting dengue, malaria, influenza, and COVID-19 outbreaks",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "143",
-      "year": "2022",
-      "title": "A GCN for Predicting COVID-19 Dynamics in 190 Regions",
-      "authors": "Kapoor A et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "Graph convolutional network with flight data for multi-country COVID prediction",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "144",
-      "year": "2024",
-      "title": "Epidemiology-Informed GNN for Heterogeneity-Aware Epidemic Forecasting",
-      "authors": "Wang Y et al.",
-      "type": "Preprint",
-      "grade": "Very Low",
-      "approach": "Other/Epidemiological",
-      "fails_at": "N/A",
-      "summary": "GNN incorporating epidemiological domain knowledge for heterogeneous forecasting",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
-    },
-    {
-      "id": "145",
-      "year": "2024",
-      "title": "Self-Attention Mechanism in Tuberculosis Time Series Forecasting",
-      "authors": "Hussain FS et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "Self-attention achieves 7.41% RMSE improvement over LSTM for TB forecasting",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
-      "id": "146",
-      "year": "2020",
-      "title": "Time Series Prediction of COVID-19 Using LSTM Deep Learning",
-      "authors": "Chimmula VK, Zhang L",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "LSTM for COVID-19 case prediction with transmission rate estimation",
-      "enriched_evidence": "Article found, but OpenAlex database does not contain its full abstract text."
-    },
-    {
       "id": "147",
       "year": "2019",
       "title": "Forecasting Seasonal Influenza with a State-Space SIR Model",
@@ -1796,18 +932,6 @@
       "fails_at": "Barrier 1",
       "summary": "Multifeature LSTM integrating search engine and surveillance data for influenza",
       "enriched_evidence": "<strong>Authentic Abstract:</strong> The newly established MAL model outperformed existing models. Natural factors and search engine query data were more helpful in forecasting ILI patterns in megacities. With more timely and effective prediction of influenza and other respiratory infectious diseases and the epidemic intensity, early and better preparedness can be achieved to reduce the health damage to the population.<br><br><a href=\"https://doi.org/10.2196/44238\" target=\"_blank\" style=\"color: #1A8C84; font-weight: bold; text-decoration: underline;\">Verify Source via DOI</a>"
-    },
-    {
-      "id": "149",
-      "year": "2024",
-      "title": "Integrating GRU in Graph Neural Network for Infectious Disease Prediction",
-      "authors": "Bhardwaj R et al.",
-      "type": "Original",
-      "grade": "Low",
-      "approach": "Deep Sequence",
-      "fails_at": "Barrier 1",
-      "summary": "GRGNN: GRU-enhanced GNN for multivariate time series disease prediction",
-      "enriched_evidence": "Article not found in the OpenAlex academic database."
     },
     {
       "id": "150",
