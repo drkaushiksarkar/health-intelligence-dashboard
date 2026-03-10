@@ -23,7 +23,7 @@
   "papers": [
     {
       "id": "1",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Machine Learning for Healthcare: On the Verge of a Major Shift in Healthcare Epidemiology",
       "authors": "Wiens J, Shenoy ES",
       "type": "Review",
@@ -34,7 +34,7 @@
     },
     {
       "id": "2",
-      "year": "2023.0",
+      "year": "2023",
       "title": "A systematic review of dengue outbreak prediction models: Current scenario and future directions",
       "authors": "Leung XY et al.",
       "type": "Systematic Review",
@@ -45,7 +45,7 @@
     },
     {
       "id": "3",
-      "year": "2022.0",
+      "year": "2022",
       "title": "A Systematic Review of Machine Learning Models for Predicting Outcomes of Stroke with Structured Data",
       "authors": "Wang Y et al.",
       "type": "Systematic Review",
@@ -56,7 +56,7 @@
     },
     {
       "id": "4",
-      "year": "2024.0",
+      "year": "2024",
       "title": "A Review on the Role of Machine Learning in Predicting and Controlling Epidemics",
       "authors": "Towfek SK, Elkanzi M",
       "type": "Review",
@@ -67,7 +67,7 @@
     },
     {
       "id": "5",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Artificial Intelligence in Public Health: The Potential of Epidemic Early Warning Systems",
       "authors": "MacIntyre CR et al.",
       "type": "Review",
@@ -78,7 +78,7 @@
     },
     {
       "id": "6",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Machine Learning and Prediction of Infectious Diseases: A Systematic Review",
       "authors": "Santangelo OE et al.",
       "type": "Systematic Review",
@@ -89,7 +89,7 @@
     },
     {
       "id": "7",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Global Infectious Disease Early Warning Models: A Systematic Review and Meta-analysis",
       "authors": "Hu WH et al.",
       "type": "Meta-analysis",
@@ -100,7 +100,7 @@
     },
     {
       "id": "8",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Artificial Intelligence in Early Warning Systems for Infectious Disease Outbreaks",
       "authors": "Villanueva-Miranda I et al.",
       "type": "Review",
@@ -111,7 +111,7 @@
     },
     {
       "id": "9",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Data-driven Methods for Dengue Prediction and Surveillance Using Real-world and Big Data: A Systematic Review",
       "authors": "Haque S et al.",
       "type": "Systematic Review",
@@ -122,7 +122,7 @@
     },
     {
       "id": "10",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Machine Learning and Deep Learning Models for Dengue Diagnosis Prediction: A Systematic Review",
       "authors": "Ong SQ et al.",
       "type": "Systematic Review",
@@ -133,7 +133,7 @@
     },
     {
       "id": "11",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Deep Time Series Forecasting Models: A Comprehensive Survey",
       "authors": "Liu X, Wang W",
       "type": "Survey",
@@ -144,7 +144,7 @@
     },
     {
       "id": "12",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Time Series Forecasting with Statistical, Machine Learning, and Deep Learning Methods: Past, Present, and Future",
       "authors": "Spiliotis E",
       "type": "Review",
@@ -155,7 +155,7 @@
     },
     {
       "id": "13",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Generative Adversarial Networks in Time Series: A Systematic Literature Review",
       "authors": "Wang L et al.",
       "type": "Systematic Review",
@@ -166,7 +166,7 @@
     },
     {
       "id": "14",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Diffusion Models for Time Series Forecasting: A Survey",
       "authors": "Tang Y et al.",
       "type": "Survey",
@@ -177,7 +177,7 @@
     },
     {
       "id": "15",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Systematic review of machine learning for dengue outbreak prediction: 2023-2024 Update",
       "authors": "Multiple Authors (CRIE/MedRxiv)",
       "type": "Systematic Review",
@@ -188,7 +188,7 @@
     },
     {
       "id": "16",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Dengue Forecasting Models: A Systematic Review and Network Meta-Analysis of Relative Performance",
       "authors": "Multiple Authors (Systematic Review/Meta-Analysis)",
       "type": "Systematic Review",
@@ -199,7 +199,7 @@
     },
     {
       "id": "17",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Analytical review of environmental factors and machine learning techniques in dengue prediction",
       "authors": "Various (Review)",
       "type": "Systematic Review",
@@ -210,7 +210,7 @@
     },
     {
       "id": "18",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Over Half of Known Human Pathogenic Diseases Can Be Aggravated by Climate Change",
       "authors": "Mora C et al.",
       "type": "Original",
@@ -221,7 +221,7 @@
     },
     {
       "id": "19",
-      "year": "2013.0",
+      "year": "2013",
       "title": "Climate Change and Infectious Diseases: Can We Meet the Needs for Better Prediction?",
       "authors": "Rod\u00f3 X et al.",
       "type": "Perspective",
@@ -232,7 +232,7 @@
     },
     {
       "id": "20",
-      "year": "2016.0",
+      "year": "2016",
       "title": "Impact of Climate Change on Human Infectious Diseases: Empirical Results and Projections",
       "authors": "Wu X et al.",
       "type": "Review",
@@ -243,7 +243,7 @@
     },
     {
       "id": "21",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Differential Effects of Global and Local Climate Data in Assessing Environmental Drivers of Epidemic Outbreaks",
       "authors": "Brook T",
       "type": "Original",
@@ -254,7 +254,7 @@
     },
     {
       "id": "22",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Estimating the Threshold Effects of Climate on Dengue: A Case Study of Taiwan",
       "authors": "Tran BL et al.",
       "type": "Original",
@@ -265,7 +265,7 @@
     },
     {
       "id": "23",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Nonlinear Impacts of Climate Change on Dengue Transmission in Mainland China",
       "authors": "Zheng Z et al.",
       "type": "Original",
@@ -276,7 +276,7 @@
     },
     {
       "id": "24",
-      "year": "2021.0",
+      "year": "2021",
       "title": "Climate Change and Vectorborne Diseases",
       "authors": "Watts et al.",
       "type": "Review",
@@ -287,7 +287,7 @@
     },
     {
       "id": "25",
-      "year": "2014.0",
+      "year": "2014",
       "title": "Impact of Recent and Future Climate Change on Vector-borne Diseases",
       "authors": "Caminade C et al.",
       "type": "Review",
@@ -298,7 +298,7 @@
     },
     {
       "id": "26",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Climate Change: A Driver of Increasing Vector-borne Disease Transmission in Non-endemic Areas",
       "authors": "Rockl\u00f6v J, Dubrow R",
       "type": "Review",
@@ -309,7 +309,7 @@
     },
     {
       "id": "27",
-      "year": "2013.0",
+      "year": "2013",
       "title": "Climate Change and Infectious Diseases: From Evidence to a Predictive Framework",
       "authors": "Altizer S et al.",
       "type": "Framework",
@@ -320,7 +320,7 @@
     },
     {
       "id": "28",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Thermal Biology of Mosquito-Borne Disease",
       "authors": "Mordecai EA et al.",
       "type": "Original",
@@ -331,7 +331,7 @@
     },
     {
       "id": "29",
-      "year": "2015.0",
+      "year": "2015",
       "title": "Climate Change and Vector-Borne Diseases: What Are the Implications for Public Health Research and Policy?",
       "authors": "Campbell-Lendrum D et al.",
       "type": "Policy",
@@ -342,7 +342,7 @@
     },
     {
       "id": "30",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Climate Change Increases Cross-species Viral Transmission Risk",
       "authors": "Carlson CJ et al.",
       "type": "Original",
@@ -353,7 +353,7 @@
     },
     {
       "id": "31",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Wake-up Call: Rapid Increase in Human Fungal Diseases under Climate Change",
       "authors": "Casadevall A",
       "type": "Review",
@@ -364,7 +364,7 @@
     },
     {
       "id": "32",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Climate Change Dynamics and Dengue Transmission Surge in the Americas (2023-2024)",
       "authors": "Various (Gavi/PAHO reports)",
       "type": "Original",
@@ -375,7 +375,7 @@
     },
     {
       "id": "33",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Severe Dengue Epidemic, Sri Lanka, 2017",
       "authors": "Tissera HA et al.",
       "type": "Original",
@@ -386,7 +386,7 @@
     },
     {
       "id": "34",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Clinical and Epidemiological Characteristics of the Dengue Outbreak of 2024: Bangladesh",
       "authors": "Hasan MJ et al.",
       "type": "Original",
@@ -397,7 +397,7 @@
     },
     {
       "id": "35",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Dengue Outbreaks in Brazil and Latin America: Continuing Challenges",
       "authors": "Sansone NMS et al.",
       "type": "Review",
@@ -408,7 +408,7 @@
     },
     {
       "id": "36",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Dengue Outbreak Caused by Multiple Virus Serotypes and Lineages, Colombia",
       "authors": "Grubaugh ND et al.",
       "type": "Original",
@@ -419,7 +419,7 @@
     },
     {
       "id": "37",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Molecular Epidemiology of Dengue in Malaysia: 2015-2021",
       "authors": "Chem YK et al.",
       "type": "Original",
@@ -430,7 +430,7 @@
     },
     {
       "id": "38",
-      "year": "2021.0",
+      "year": "2021",
       "title": "Evolution and Epidemiologic Dynamics of Dengue Virus in Nicaragua",
       "authors": "Edgerton SV et al.",
       "type": "Original",
@@ -441,7 +441,7 @@
     },
     {
       "id": "39",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Resurgence of Dengue in the Philippines",
       "authors": "Interior JS et al.",
       "type": "Review",
@@ -452,7 +452,7 @@
     },
     {
       "id": "40",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Singapore's Dengue Outbreak Amidst the COVID-19 Pandemic",
       "authors": "Cheema HA et al.",
       "type": "Original",
@@ -463,7 +463,7 @@
     },
     {
       "id": "41",
-      "year": "2018.0",
+      "year": "2018",
       "title": "Baseline Characterization of Dengue Epidemiology in Yogyakarta, Indonesia",
       "authors": "Indriani C et al.",
       "type": "Original",
@@ -474,7 +474,7 @@
     },
     {
       "id": "42",
-      "year": "2024.0",
+      "year": "2024",
       "title": "A Global Dataset of Publicly Available Dengue Case Count Data",
       "authors": "Clarke J et al.",
       "type": "Data",
@@ -485,7 +485,7 @@
     },
     {
       "id": "43",
-      "year": "2024.0",
+      "year": "2024",
       "title": "A Reproducible Ensemble Machine Learning Approach to Forecast Dengue Outbreaks",
       "authors": "Sebastianelli A et al.",
       "type": "Original",
@@ -496,7 +496,7 @@
     },
     {
       "id": "44",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Improving Dengue Fever Predictions in Taiwan Based on Feature Selection and Random Forests",
       "authors": "Benedum CM et al.",
       "type": "Original",
@@ -507,7 +507,7 @@
     },
     {
       "id": "45",
-      "year": "2016.0",
+      "year": "2016",
       "title": "Mapping Dengue Risk in Singapore Using Random Forest",
       "authors": "Lowe R et al.",
       "type": "Original",
@@ -518,7 +518,7 @@
     },
     {
       "id": "46",
-      "year": "2025.0",
+      "year": "2025",
       "title": "ANN vs XGBoost for Climate-Based Dengue Prediction in Bangladesh",
       "authors": "Chowdhury MJH et al.",
       "type": "Original",
@@ -529,7 +529,7 @@
     },
     {
       "id": "47",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Precision Prediction for Dengue in Singapore Using Meteorological Data",
       "authors": "Liu W et al.",
       "type": "Original",
@@ -540,7 +540,7 @@
     },
     {
       "id": "48",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Dengue EWS and Outbreak Prediction in Bangladesh Using Interpretable Tree-Based ML",
       "authors": "Rahman MA et al.",
       "type": "Original",
@@ -551,7 +551,7 @@
     },
     {
       "id": "49",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Dengue in Tomorrow: ARIMA and SARIMA Models in Bangladesh",
       "authors": "Hasan MK et al.",
       "type": "Original",
@@ -562,7 +562,7 @@
     },
     {
       "id": "50",
-      "year": "2011.0",
+      "year": "2011",
       "title": "A SARIMA Forecasting Model for Dengue in Campinas, Brazil",
       "authors": "Luz PM et al.",
       "type": "Original",
@@ -573,7 +573,7 @@
     },
     {
       "id": "51",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Assessing Dengue Forecasting Methods: Comparative Study in Rio de Janeiro",
       "authors": "Silva BN et al.",
       "type": "Original",
@@ -584,7 +584,7 @@
     },
     {
       "id": "52",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Forecasting Dengue Using Google Trends, EHR, and Time Series Data",
       "authors": "McIver DJ et al.",
       "type": "Original",
@@ -595,7 +595,7 @@
     },
     {
       "id": "53",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Google Health Trends Performance Reflecting Dengue Incidence for Brazilian States",
       "authors": "Carvalho GC et al.",
       "type": "Original",
@@ -606,7 +606,7 @@
     },
     {
       "id": "54",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Dengue Transmission Dynamics Prediction by Combining Metapopulation Networks and Kalman Filter",
       "authors": "Wei Y et al.",
       "type": "Original",
@@ -617,7 +617,7 @@
     },
     {
       "id": "55",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Challenges in Real-Time Prediction of Infectious Disease: Dengue in Thailand",
       "authors": "Osthus D et al.",
       "type": "Original",
@@ -628,7 +628,7 @@
     },
     {
       "id": "56",
-      "year": "2005.0",
+      "year": "2005",
       "title": "Using Climate to Predict Infectious Disease Epidemics",
       "authors": "Kuhn K et al.",
       "type": "Guideline",
@@ -639,7 +639,7 @@
     },
     {
       "id": "57",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Global Analysis and Prediction of Dengue Using Machine Learning",
       "authors": "Rakhshan SA et al.",
       "type": "Original",
@@ -650,7 +650,7 @@
     },
     {
       "id": "58",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Machine Learning for Dengue Forecasting: A Systematic Evaluation",
       "authors": "Zhao N et al.",
       "type": "Original",
@@ -661,7 +661,7 @@
     },
     {
       "id": "59",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Hybrid Machine Learning Approach to Zero-Inflated Data Improves Accuracy of Dengue Prediction",
       "authors": "Various (PubMed)",
       "type": "Original",
@@ -672,7 +672,7 @@
     },
     {
       "id": "60",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Comparative study aimed at forecasting dengue incidence in Bangladesh: XGBoost and SARIMA",
       "authors": "Researchers (Bangladesh focus)",
       "type": "Original",
@@ -683,7 +683,7 @@
     },
     {
       "id": "61",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Dengue Forecasting in Brazil Using LSTM: Human Mobility and Climate Factors",
       "authors": "Adewole A et al.",
       "type": "Preprint",
@@ -694,7 +694,7 @@
     },
     {
       "id": "62",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Deep Learning for Dengue Fever Prediction in Malaysia Using LSTM with Spatial Attention",
       "authors": "Lim SC et al.",
       "type": "Original",
@@ -705,7 +705,7 @@
     },
     {
       "id": "63",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Forecasting Dengue Across Brazil with LSTM and SHAP-driven Lagged Climate Effects",
       "authors": "Rodrigues N et al.",
       "type": "Original",
@@ -716,7 +716,7 @@
     },
     {
       "id": "64",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Deep Learning Models for Forecasting Dengue Based on Climate Data in Vietnam",
       "authors": "Tri\u1ec7u NV et al.",
       "type": "Original",
@@ -727,7 +727,7 @@
     },
     {
       "id": "65",
-      "year": "2023.0",
+      "year": "2023",
       "title": "A Deep Learning Based Hybrid Architecture for Weekly Dengue Incidence Forecasting",
       "authors": "Devi R et al.",
       "type": "Original",
@@ -738,7 +738,7 @@
     },
     {
       "id": "66",
-      "year": "2024.0",
+      "year": "2024",
       "title": "CrossLag: Predicting Major Dengue Outbreaks with Domain Knowledge Informed Transformer",
       "authors": "Xu Y et al.",
       "type": "Preprint",
@@ -749,7 +749,7 @@
     },
     {
       "id": "67",
-      "year": "2024.0",
+      "year": "2024",
       "title": "FWin Transformer for Dengue Prediction Under Climate and Ocean Influence",
       "authors": "Chen B et al.",
       "type": "Original",
@@ -760,7 +760,7 @@
     },
     {
       "id": "68",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Hybrid CNN and Stacked LSTM for Dengue Forecasting in Laos",
       "authors": "Butsomphanh B et al.",
       "type": "Original",
@@ -771,7 +771,7 @@
     },
     {
       "id": "69",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Tracking Dynamics of Chaotic Infectious Disease with Bifurcated LSTM",
       "authors": "Adebayo A et al.",
       "type": "Original",
@@ -782,7 +782,7 @@
     },
     {
       "id": "70",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Prediction of Dengue Patients Using Deep Learning Amid Complex Weather in Jaipur",
       "authors": "Kumar R et al.",
       "type": "Original",
@@ -793,7 +793,7 @@
     },
     {
       "id": "71",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Deep Learning for Dengue Disease Forecasting: A Review of Transformer architectures",
       "authors": "Various (arXiv/Recent Repos)",
       "type": "Systematic Review",
@@ -804,7 +804,7 @@
     },
     {
       "id": "72",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Predicting the Historic 2024 Dengue Outbreak in Brazil using Deep Learning",
       "authors": "Researchers (MedRxiv/Current Research)",
       "type": "Original",
@@ -815,7 +815,7 @@
     },
     {
       "id": "73",
-      "year": "2023.0",
+      "year": "2023",
       "title": "District-Level Dengue Early Warning Systems with Explainable AI (XAI)",
       "authors": "Bangladesh Local Research",
       "type": "Original",
@@ -826,7 +826,7 @@
     },
     {
       "id": "74",
-      "year": "2024.0",
+      "year": "2024",
       "title": "A Deep Learning Approach for Dengue Fever Prediction in Malaysia Using LSTM with Spatial Attention",
       "authors": "Researchers (Malaysia/IEEE/PubMed)",
       "type": "Original",
@@ -837,7 +837,7 @@
     },
     {
       "id": "75",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Machine Learning Models for Dengue Forecasting in Singapore",
       "authors": "Researchers (Singapore/arXiv)",
       "type": "Original",
@@ -848,7 +848,7 @@
     },
     {
       "id": "76",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Dengue forecasting and outbreak detection in Brazil using LSTM integrating human mobility and climate factors",
       "authors": "Researchers (Brazil focus)",
       "type": "Original",
@@ -859,7 +859,7 @@
     },
     {
       "id": "77",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Hybrid deep learning model integrating meteorological data and advanced signal processing (SGMD) with BiLSTM-Attention",
       "authors": "Researchers (Guangdong focus)",
       "type": "Original",
@@ -870,7 +870,7 @@
     },
     {
       "id": "78",
-      "year": "1997.0",
+      "year": "1997",
       "title": "Long Short-Term Memory",
       "authors": "Hochreiter S, Schmidhuber J",
       "type": "Foundational",
@@ -881,7 +881,7 @@
     },
     {
       "id": "79",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Attention Is All You Need",
       "authors": "Vaswani A et al.",
       "type": "Foundational",
@@ -892,7 +892,7 @@
     },
     {
       "id": "80",
-      "year": "2018.0",
+      "year": "2018",
       "title": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
       "authors": "Bai S et al.",
       "type": "Foundational",
@@ -903,7 +903,7 @@
     },
     {
       "id": "81",
-      "year": "2014.0",
+      "year": "2014",
       "title": "Generative Adversarial Networks",
       "authors": "Goodfellow IJ et al.",
       "type": "Foundational",
@@ -914,7 +914,7 @@
     },
     {
       "id": "82",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Wasserstein GAN",
       "authors": "Arjovsky M et al.",
       "type": "Foundational",
@@ -925,7 +925,7 @@
     },
     {
       "id": "83",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Improved Training of Wasserstein GANs",
       "authors": "Gulrajani I et al.",
       "type": "Foundational",
@@ -936,7 +936,7 @@
     },
     {
       "id": "84",
-      "year": "2014.0",
+      "year": "2014",
       "title": "Auto-Encoding Variational Bayes",
       "authors": "Kingma DP, Welling M",
       "type": "Foundational",
@@ -947,7 +947,7 @@
     },
     {
       "id": "85",
-      "year": "2017.0",
+      "year": "2017",
       "title": "\u03b2-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
       "authors": "Higgins I et al.",
       "type": "Foundational",
@@ -958,7 +958,7 @@
     },
     {
       "id": "86",
-      "year": "2011.0",
+      "year": "2011",
       "title": "Contractive Auto-Encoders: Explicit Invariance During Feature Extraction",
       "authors": "Rifai S et al.",
       "type": "Foundational",
@@ -969,7 +969,7 @@
     },
     {
       "id": "87",
-      "year": "2015.0",
+      "year": "2015",
       "title": "Learning Structured Output Representation Using Deep Conditional Generative Models",
       "authors": "Sohn K et al.",
       "type": "Foundational",
@@ -980,7 +980,7 @@
     },
     {
       "id": "88",
-      "year": "2016.0",
+      "year": "2016",
       "title": "Improved Techniques for Training GANs",
       "authors": "Salimans T et al.",
       "type": "Foundational",
@@ -991,7 +991,7 @@
     },
     {
       "id": "89",
-      "year": "2018.0",
+      "year": "2018",
       "title": "Neural Ordinary Differential Equations",
       "authors": "Chen RTQ et al.",
       "type": "Foundational",
@@ -1002,7 +1002,7 @@
     },
     {
       "id": "90",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Denoising Diffusion Probabilistic Models",
       "authors": "Ho J et al.",
       "type": "Foundational",
@@ -1013,7 +1013,7 @@
     },
     {
       "id": "91",
-      "year": "2021.0",
+      "year": "2021",
       "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
       "authors": "Zhou H et al.",
       "type": "Original",
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "92",
-      "year": "2021.0",
+      "year": "2021",
       "title": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
       "authors": "Wu H et al.",
       "type": "Original",
@@ -1035,7 +1035,7 @@
     },
     {
       "id": "93",
-      "year": "2021.0",
+      "year": "2021",
       "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
       "authors": "Lim B et al.",
       "type": "Original",
@@ -1046,7 +1046,7 @@
     },
     {
       "id": "94",
-      "year": "2020.0",
+      "year": "2020",
       "title": "N-BEATS: Neural Basis Expansion Analysis for Interpretable Time Series Forecasting",
       "authors": "Oreshkin BN et al.",
       "type": "Original",
@@ -1057,7 +1057,7 @@
     },
     {
       "id": "95",
-      "year": "2020.0",
+      "year": "2020",
       "title": "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks",
       "authors": "Salinas D et al.",
       "type": "Original",
@@ -1068,7 +1068,7 @@
     },
     {
       "id": "96",
-      "year": "2021.0",
+      "year": "2021",
       "title": "Recurrent Neural Networks for Time Series Forecasting: Current Status and Future Directions",
       "authors": "Hewamalage H et al.",
       "type": "Review",
@@ -1079,7 +1079,7 @@
     },
     {
       "id": "97",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Time-series Generative Adversarial Networks",
       "authors": "Yoon J et al.",
       "type": "Original",
@@ -1090,7 +1090,7 @@
     },
     {
       "id": "98",
-      "year": "2021.0",
+      "year": "2021",
       "title": "TimeVAE: A Variational Auto-Encoder for Multivariate Time Series Generation",
       "authors": "Frazier-Logue N, Hanin B",
       "type": "Original",
@@ -1101,7 +1101,7 @@
     },
     {
       "id": "99",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Diffusion-TS: Interpretable Diffusion for General Time Series Generation",
       "authors": "Yang Y et al.",
       "type": "Original",
@@ -1112,7 +1112,7 @@
     },
     {
       "id": "100",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Latent ODEs for Irregularly-Sampled Time Series",
       "authors": "Rubanova Y et al.",
       "type": "Original",
@@ -1123,7 +1123,7 @@
     },
     {
       "id": "101",
-      "year": "2025.0",
+      "year": "2025",
       "title": "A Predictive Approach to Enhance Time-Series Forecasting",
       "authors": "Gunasekaran S et al.",
       "type": "Original",
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "102",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Transfer Learning Applications in Disease Prediction: A Comprehensive Review",
       "authors": "Dharani K et al.",
       "type": "Review",
@@ -1145,7 +1145,7 @@
     },
     {
       "id": "103",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Forecasting New Diseases in Low-Data Settings Using Transfer Learning",
       "authors": "Tran VT et al.",
       "type": "Original",
@@ -1156,7 +1156,7 @@
     },
     {
       "id": "104",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Time Series Modeling of Epidemic Spreading Using Deep Transfer Learning",
       "authors": "Sharomi O, Watmough J",
       "type": "Original",
@@ -1167,7 +1167,7 @@
     },
     {
       "id": "105",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Cross-Country Learning for National Infectious Disease Forecasting Using European Data",
       "authors": "Gattinger SA, Bergmeir C",
       "type": "Preprint",
@@ -1178,7 +1178,7 @@
     },
     {
       "id": "106",
-      "year": "2021.0",
+      "year": "2021",
       "title": "A Transformer-based Framework for Multivariate Time Series Representation Learning",
       "authors": "Zerveas G et al.",
       "type": "Original",
@@ -1189,7 +1189,7 @@
     },
     {
       "id": "107",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Using Machine Learning to Predict Disease Outbreaks and Strengthen Global Health Monitoring",
       "authors": "Foluke E",
       "type": "Review",
@@ -1200,7 +1200,7 @@
     },
     {
       "id": "108",
-      "year": "1994.0",
+      "year": "1994",
       "title": "Estimating the Mean and Variance of the Target Probability Distribution",
       "authors": "Nix DA, Weigend AS",
       "type": "Foundational",
@@ -1211,7 +1211,7 @@
     },
     {
       "id": "109",
-      "year": "1978.0",
+      "year": "1978",
       "title": "Regression Quantiles",
       "authors": "Koenker RW, Bassett G",
       "type": "Foundational",
@@ -1222,7 +1222,7 @@
     },
     {
       "id": "110",
-      "year": "2007.0",
+      "year": "2007",
       "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
       "authors": "Gneiting T, Raftery AE",
       "type": "Foundational",
@@ -1233,7 +1233,7 @@
     },
     {
       "id": "111",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Simple and Scalable Predictive Uncertainty Estimation Using Deep Ensembles",
       "authors": "Lakshminarayanan B et al.",
       "type": "Original",
@@ -1244,7 +1244,7 @@
     },
     {
       "id": "112",
-      "year": "2016.0",
+      "year": "2016",
       "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
       "authors": "Gal Y, Ghahramani Z",
       "type": "Original",
@@ -1255,7 +1255,7 @@
     },
     {
       "id": "113",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Addressing Delayed Case Reporting in Infectious Disease Forecast Modeling",
       "authors": "Beesley LJ et al.",
       "type": "Original",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "114",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Stop Explaining Black Box ML Models for High Stakes Decisions and Use Interpretable Models Instead",
       "authors": "Rudin C",
       "type": "Perspective",
@@ -1277,7 +1277,7 @@
     },
     {
       "id": "115",
-      "year": "2017.0",
+      "year": "2017",
       "title": "A Unified Approach to Interpreting Model Predictions (SHAP)",
       "authors": "Lundberg SM, Lee SI",
       "type": "Foundational",
@@ -1288,7 +1288,7 @@
     },
     {
       "id": "116",
-      "year": "2016.0",
+      "year": "2016",
       "title": "Why Should I Trust You? Explaining the Predictions of Any Classifier (LIME)",
       "authors": "Ribeiro MT et al.",
       "type": "Foundational",
@@ -1299,7 +1299,7 @@
     },
     {
       "id": "117",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Explainable AI for Predicting Dengue Outbreaks in Bangladesh Using Eco-climatic Triggers",
       "authors": "Singh MP et al.",
       "type": "Original",
@@ -1310,7 +1310,7 @@
     },
     {
       "id": "118",
-      "year": "2015.0",
+      "year": "2015",
       "title": "Deep Learning and the Information Bottleneck Principle",
       "authors": "Tishby N, Zaslavsky N",
       "type": "Foundational",
@@ -1321,7 +1321,7 @@
     },
     {
       "id": "119",
-      "year": "2013.0",
+      "year": "2013",
       "title": "Collinearity: A Review of Methods to Deal with It",
       "authors": "Dormann CF et al.",
       "type": "Review",
@@ -1332,7 +1332,7 @@
     },
     {
       "id": "120",
-      "year": "2020.0",
+      "year": "2020",
       "title": "The ERA5 Global Reanalysis",
       "authors": "Hersbach H et al.",
       "type": "Data",
@@ -1343,7 +1343,7 @@
     },
     {
       "id": "121",
-      "year": "2023.0",
+      "year": "2023",
       "title": "ERA5 Monthly Averaged Data on Single Levels from 1940 to Present",
       "authors": "Hersbach H et al.",
       "type": "Data",
@@ -1354,7 +1354,7 @@
     },
     {
       "id": "122",
-      "year": "2012.0",
+      "year": "2012",
       "title": "The Effects of Climate Data Precision on Fitting and Projecting Species Distribution Models",
       "authors": "Kriticos DJ et al.",
       "type": "Original",
@@ -1365,7 +1365,7 @@
     },
     {
       "id": "123",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Remote Sensing and ML for Disease Risk Mapping",
       "authors": "Qasrawi R et al.",
       "type": "Review",
@@ -1376,7 +1376,7 @@
     },
     {
       "id": "124",
-      "year": "2006.0",
+      "year": "2006",
       "title": "Seasonal Infectious Disease Epidemiology",
       "authors": "Grassly NC, Fraser C",
       "type": "Original",
@@ -1387,7 +1387,7 @@
     },
     {
       "id": "125",
-      "year": "2013.0",
+      "year": "2013",
       "title": "Towards Multiscale Modeling of Influenza Infection",
       "authors": "Murillo LN et al.",
       "type": "Original",
@@ -1398,7 +1398,7 @@
     },
     {
       "id": "126",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Multiscale Malaria Models and Their Uniform In-time Convergence",
       "authors": "Banasiak J et al.",
       "type": "Original",
@@ -1409,7 +1409,7 @@
     },
     {
       "id": "127",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Exploring Dengue Dynamics: A Multi-scale Modeling Approach",
       "authors": "Otero J et al.",
       "type": "Original",
@@ -1420,7 +1420,7 @@
     },
     {
       "id": "128",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Non-Markovian Epidemic Spreading on Temporal Networks",
       "authors": "Han L et al.",
       "type": "Original",
@@ -1431,7 +1431,7 @@
     },
     {
       "id": "129",
-      "year": "2005.0",
+      "year": "2005",
       "title": "Time-dependent Spectral Analysis of Epidemiological Time Series with Wavelets",
       "authors": "Cazelles B et al.",
       "type": "Original",
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "130",
-      "year": "1902.0",
+      "year": "1902",
       "title": "Sur les probl\u00e8mes aux d\u00e9riv\u00e9es partielles et leur signification physique",
       "authors": "Hadamard J",
       "type": "Foundational",
@@ -1453,7 +1453,7 @@
     },
     {
       "id": "131",
-      "year": "1992.0",
+      "year": "1992",
       "title": "Nonlinear Total Variation Based Noise Removal Algorithms",
       "authors": "Rudin LI et al.",
       "type": "Foundational",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "132",
-      "year": "2016.0",
+      "year": "2016",
       "title": "The Neglected Dimension of Global Security: A Framework to Counter Infectious Disease Crises",
       "authors": "Commission on Global Health Risk Framework",
       "type": "Report",
@@ -1475,7 +1475,7 @@
     },
     {
       "id": "133",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Investing in Pandemic Preparedness and Response",
       "authors": "Clarke L et al.",
       "type": "Policy",
@@ -1486,7 +1486,7 @@
     },
     {
       "id": "134",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Strengthening Infectious Disease Surveillance Systems: Early Warning and Response",
       "authors": "Alahmari AA et al.",
       "type": "Review",
@@ -1497,7 +1497,7 @@
     },
     {
       "id": "135",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Early Warning Systems for the Detection of Malaria Outbreaks",
       "authors": "Maharaj R",
       "type": "Review",
@@ -1508,7 +1508,7 @@
     },
     {
       "id": "136",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Impacts of Environmental and Socio-economic Factors on Emergence and Epidemic Potential of Ebola in Africa",
       "authors": "Redding DW et al.",
       "type": "Original",
@@ -1519,7 +1519,7 @@
     },
     {
       "id": "137",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Climate-Informed Disease Surveillance Systems in India",
       "authors": "Sophia Y et al.",
       "type": "Original",
@@ -1530,7 +1530,7 @@
     },
     {
       "id": "138",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Towards a Climate-Driven Disease Forecasting System for India",
       "authors": "Sahai AK et al.",
       "type": "Original",
@@ -1541,7 +1541,7 @@
     },
     {
       "id": "139",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Dengue Early Warning System Using ML and Climate Variables",
       "authors": "Rahman MS et al.",
       "type": "Original",
@@ -1552,7 +1552,7 @@
     },
     {
       "id": "140",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Assessing the Performance of Climate-informed Disease EWS in Latin America",
       "authors": "Cepella GMA et al.",
       "type": "Original",
@@ -1563,7 +1563,7 @@
     },
     {
       "id": "141",
-      "year": "2023.0",
+      "year": "2023",
       "title": "Malaria's Association with Climatic Variables and an Epidemic Early Warning Approach in Africa",
       "authors": "Hussien HH",
       "type": "Original",
@@ -1574,7 +1574,7 @@
     },
     {
       "id": "142",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Forecasting Major Biological Events Using Machine Learning",
       "authors": "Kumar S et al.",
       "type": "Original",
@@ -1585,7 +1585,7 @@
     },
     {
       "id": "143",
-      "year": "2022.0",
+      "year": "2022",
       "title": "A GCN for Predicting COVID-19 Dynamics in 190 Regions",
       "authors": "Kapoor A et al.",
       "type": "Original",
@@ -1596,7 +1596,7 @@
     },
     {
       "id": "144",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Epidemiology-Informed GNN for Heterogeneity-Aware Epidemic Forecasting",
       "authors": "Wang Y et al.",
       "type": "Preprint",
@@ -1607,7 +1607,7 @@
     },
     {
       "id": "145",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Self-Attention Mechanism in Tuberculosis Time Series Forecasting",
       "authors": "Hussain FS et al.",
       "type": "Original",
@@ -1618,7 +1618,7 @@
     },
     {
       "id": "146",
-      "year": "2020.0",
+      "year": "2020",
       "title": "Time Series Prediction of COVID-19 Using LSTM Deep Learning",
       "authors": "Chimmula VK, Zhang L",
       "type": "Original",
@@ -1629,7 +1629,7 @@
     },
     {
       "id": "147",
-      "year": "2019.0",
+      "year": "2019",
       "title": "Forecasting Seasonal Influenza with a State-Space SIR Model",
       "authors": "Osthus D et al.",
       "type": "Original",
@@ -1640,7 +1640,7 @@
     },
     {
       "id": "148",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Deep-Learning Model for Influenza Prediction from Multisource Data",
       "authors": "Wang S et al.",
       "type": "Original",
@@ -1651,7 +1651,7 @@
     },
     {
       "id": "149",
-      "year": "2024.0",
+      "year": "2024",
       "title": "Integrating GRU in Graph Neural Network for Infectious Disease Prediction",
       "authors": "Bhardwaj R et al.",
       "type": "Original",
@@ -1662,7 +1662,7 @@
     },
     {
       "id": "150",
-      "year": "2017.0",
+      "year": "2017",
       "title": "Optimal Temperature for Malaria Transmission Is Dramatically Lower Than Previously Predicted",
       "authors": "Mordecai EA et al.",
       "type": "Original",
@@ -1673,7 +1673,7 @@
     },
     {
       "id": "151",
-      "year": "2014.0",
+      "year": "2014",
       "title": "Altitudinal Changes in Malaria Incidence in Highlands of Ethiopia and Colombia",
       "authors": "Siraj AS et al.",
       "type": "Original",
@@ -1684,7 +1684,7 @@
     },
     {
       "id": "152",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Big Geospatial Data and Data-Driven Methods for Urban Dengue Risk Forecasting: A Review",
       "authors": "Scobie HM et al.",
       "type": "Review",
@@ -1695,7 +1695,7 @@
     },
     {
       "id": "153",
-      "year": "2022.0",
+      "year": "2022",
       "title": "Google Earth Engine-Based Risk Predictor Generation for Dengue Forecasting in Brazil",
       "authors": "Schall R et al.",
       "type": "Original",
@@ -1706,7 +1706,7 @@
     },
     {
       "id": "154",
-      "year": "2025.0",
+      "year": "2025",
       "title": "Spatial Distribution Analysis and Forecasting of Dengue in the Philippines",
       "authors": "Olana KO et al.",
       "type": "Original",
