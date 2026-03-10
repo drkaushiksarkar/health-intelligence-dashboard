@@ -252,17 +252,18 @@ function openModal(paperData) {
     document.getElementById('modalAuthors').textContent = paperData.authors;
     document.getElementById('modalYear').textContent = paperData.year || 'N/A';
     document.getElementById('modalType').textContent = paperData.type;
-    
+
     const approachBadge = document.getElementById('modalApproach');
     approachBadge.textContent = paperData.approach;
     approachBadge.style.background = paperData.approach === 'Deep Sequence' ? '#1A8C84' : '#475569';
-    
+
     document.getElementById('modalGrade').textContent = paperData.grade;
     document.getElementById('modalSummary').textContent = paperData.summary;
+    document.getElementById('modalEnriched').innerHTML = paperData.enriched_evidence || "<em>Evidence sync pending...</em>";
 
     const barrierPanel = document.getElementById('modalBarrier');
     const barrierText = document.getElementById('modalBarrierText');
-    
+
     if (paperData.fails_at !== 'N/A') {
         barrierPanel.style.display = 'block';
         if (paperData.fails_at === 'Barrier 1') {
@@ -284,7 +285,7 @@ function closeModal() {
 }
 
 // Close modal if clicking outside
-window.onclick = function(event) {
+window.onclick = function (event) {
     const modal = document.getElementById('synopsisModal');
     if (event.target === modal) {
         closeModal();
