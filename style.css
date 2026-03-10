@@ -1,9 +1,13 @@
 :root {
-    --primary-bg: #F4F7FB;   /* Very light gray/blue background */
+    --primary-bg: #F4F7FB;
+    /* Very light gray/blue background */
     --panel-bg: #FFFFFF;
-    --navy-blue: #0A1C3E;    /* Core dark blue from slide */
-    --teal: #1A8C84;         /* Teal from slide accents */
-    --red: #C52233;          /* For "Fails at Both" */
+    --navy-blue: #0A1C3E;
+    /* Core dark blue from slide */
+    --teal: #1A8C84;
+    /* Teal from slide accents */
+    --red: #C52233;
+    /* For "Fails at Both" */
     --dark-red: #A31621;
     --slate: #475569;
     --light-slate: #94A3B8;
@@ -88,7 +92,7 @@ body {
 .panel {
     background: var(--panel-bg);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     border: 1px solid var(--border-color);
     padding: 1.5rem;
 }
@@ -245,9 +249,18 @@ body {
     width: 100%;
 }
 
-.fails-both { background: var(--red); }
-.fails-b1 { background: var(--teal); }
-.fails-b2 { background: var(--navy-blue); }
+.fails-both {
+    background: var(--red);
+}
+
+.fails-b1 {
+    background: var(--teal);
+}
+
+.fails-b2 {
+    background: var(--navy-blue);
+}
+
 .fails-reason {
     font-size: 0.75rem;
     color: var(--red);
@@ -256,8 +269,14 @@ body {
     margin-top: 5px;
     text-align: center;
 }
-.reason-teal { color: var(--teal); }
-.reason-navy { color: var(--navy-blue); }
+
+.reason-teal {
+    color: var(--teal);
+}
+
+.reason-navy {
+    color: var(--navy-blue);
+}
 
 .architectural-gap {
     background: var(--navy-blue);
@@ -319,7 +338,8 @@ body {
     gap: 1rem;
 }
 
-.table-controls input, .table-controls select {
+.table-controls input,
+.table-controls select {
     padding: 8px 12px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -337,7 +357,8 @@ body {
     font-size: 0.85rem;
 }
 
-.data-table th, .data-table td {
+.data-table th,
+.data-table td {
     padding: 12px;
     border-bottom: 1px solid var(--border-color);
     text-align: left;
@@ -369,10 +390,25 @@ body {
     display: inline-block;
 }
 
-.grade-high { background: #D1FAE5; color: #065F46; }
-.grade-moderate { background: #FEF3C7; color: #92400E; }
-.grade-low { background: #FFEDD5; color: #9A3412; }
-.grade-very-low { background: #FEE2E2; color: #991B1B; }
+.grade-high {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+.grade-moderate {
+    background: #FEF3C7;
+    color: #92400E;
+}
+
+.grade-low {
+    background: #FFEDD5;
+    color: #9A3412;
+}
+
+.grade-very-low {
+    background: #FEE2E2;
+    color: #991B1B;
+}
 
 .pagination {
     display: flex;
@@ -396,7 +432,6 @@ body {
     border-color: var(--navy-blue);
 }
 
-/* Modal Styles */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -405,10 +440,9 @@ body {
     height: 100%;
     background: rgba(10, 28, 62, 0.6);
     display: none;
-    justify-content: center;
-    align-items: center;
     z-index: 1000;
     backdrop-filter: blur(4px);
+    overflow-y: auto;
 }
 
 .modal-content {
@@ -419,11 +453,19 @@ body {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     overflow: hidden;
     animation: modalFadeIn 0.3s ease-out;
+    margin: 5vh auto;
 }
 
 @keyframes modalFadeIn {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .modal-header {

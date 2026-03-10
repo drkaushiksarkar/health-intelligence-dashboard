@@ -277,11 +277,13 @@ function openModal(paperData) {
         barrierPanel.style.display = 'none';
     }
 
-    document.getElementById('synopsisModal').style.display = 'flex';
+    document.getElementById('synopsisModal').style.display = 'block';
+    document.body.style.overflow = 'hidden'; // Stop background scrolling
 }
 
 function closeModal() {
     document.getElementById('synopsisModal').style.display = 'none';
+    document.body.style.overflow = ''; // Restore background scrolling
 }
 
 // Close modal if clicking outside
